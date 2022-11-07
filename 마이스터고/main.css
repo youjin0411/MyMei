@@ -1,0 +1,121 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+/* base */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,body{ overflow-x: hidden; }
+ul {
+    list-style: none;
+}
+a{
+    text-decoration-line: none;
+}
+
+body{
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    color: rgb(19, 19, 19);
+}
+
+p{
+    font-size: 1em;
+}
+
+b{
+    margin-left: 150px;
+}
+/* nav */
+.container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header{
+    background-color: #173473;
+}
+
+nav {
+    height: 44px; /* nav글자 높이 */
+    /* 수평배열 */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* nav글자 중앙정렬 */
+}
+
+nav a {
+    color: #fff;
+    font-size: 0.8rem; /* 글자 크기*/
+    font-weight: bold;
+}
+    
+.nav-toggle {
+    /* toggle버튼이 보이지 않도록  */
+    display: none;
+    /* visibility: hidden; */
+}
+
+.nav-toggle i{
+    color:#fff;
+}
+
+.nav-toggle {
+    /* toggle버튼이 보이지 않도록  */
+    display: none;
+    /* visibility: hidden; */
+}
+
+.nav-toggle i{
+    color:#fff;
+}
+
+.nav-list {
+    /* 수평배열 */
+    display: flex;
+    column-gap: 5rem; /* 12px = nav글자사이의 거리 */
+    margin-right: 100px;
+}
+
+.nav-link {
+    display: block; /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.5rem;
+}
+
+.nav-list .nav-item:nth-child(3){
+    text-align: center;
+    background-color: #fff;
+    color: #173473;
+    border-radius: 0.7rem;
+}
+
+.nav-item:nth-child(3) .nav-link{
+  color: black;
+}
+
+.first-img{
+  height: 28vw;
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.484), rgba(0, 0, 0, 0.516) ),
+    url("");
+    background-size: cover;
+}
