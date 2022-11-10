@@ -24,7 +24,6 @@ const nonClick2 = document.querySelector(".chk2");
 nonClick.onclick = function(){
     nonClick.style.color = '#20819F';
     nonClick2.style.color = '#595959';
-    
 }
 
 nonClick2.onclick = function(){
