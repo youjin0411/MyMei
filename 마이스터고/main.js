@@ -17,3 +17,18 @@ const toggleMenu = (toggleId, navListId) => {
     }
 }
 toggleMenu("nav-toggle", "nav-list");
+
+// 선택 시 색상 변경 
+const nonClick = document.querySelector(".chk1"); 
+const nonClick2 = document.querySelector(".chk2");
+nonClick.onclick = function(){
+    nonClick.style.color = '#20819F';
+    nonClick2.style.color = '#595959';
+    
+}
+
+nonClick2.onclick = function(){
+    nonClick2.style.color = '#20819F';
+    nonClick.style.color = '#595959';
+}
+

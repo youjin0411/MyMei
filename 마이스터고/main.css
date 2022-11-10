@@ -130,9 +130,6 @@ nav a {
 }
 
 .selctext{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -142,6 +139,10 @@ nav a {
     font-weight: bold;
     font-size: 1rem;
     color: #595959;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .choi-1{
@@ -151,11 +152,42 @@ nav a {
 .linesec{
     margin: 0 auto;
     margin-top: 0.5rem  ;
-    width: 12.125em;
-    height: 0.8em;
+    width: 10.925em;
+    height: 0.55em;
     background-color: #B9C8CD;
     border-radius: 0.6rem;
+    margin-bottom: 1rem;
 }
+
+.line{
+    width: 60rem;
+    text-align: center;
+    margin:  0 auto;
+}
+hr{
+    background-color: 0.1em#B9C8CD;
+}
+
+.chk:hover {
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    background-color:transparent;
+    font-size: 1rem;
+    font-weight:bolder;
+    color: #595959;
+}
+
+.click {
+  color: #20819F;
+}
+
+.nonclick{
+    color: #595959;
+}
+
 
 
 /* mobile  */
