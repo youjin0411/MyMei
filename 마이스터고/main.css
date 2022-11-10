@@ -224,6 +224,31 @@ button{
     align-items: center;
 }
 
+.title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.linesec2{
+    margin: 0 auto;
+    margin-top: 0.1rem  ;
+    width: 6.925em;
+    height: 0.55em;
+    background-color: #B9C8CD;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.area{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #4AA4CA;
+}
+
+.context{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
 
 /* mobile  */
 @media screen and (max-width: 680px){
