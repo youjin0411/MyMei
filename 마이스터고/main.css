@@ -152,9 +152,9 @@ nav a {
 .linesec{
     margin: 0 auto;
     margin-top: 0.5rem  ;
-    width: 10.925em;
+    width: 12.925em;
     height: 0.55em;
-    background-color: #B9C8CD;
+    background-color: #c12e77de;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
 }
@@ -166,7 +166,7 @@ nav a {
     margin-bottom: 1.6rem;
 }
 hr{
-    background-color: 0.1em#B9C8CD;
+    background-color: 0.1em#c12e77de;
 }
 
 .chk:hover {
@@ -234,7 +234,7 @@ button{
     margin-top: 0.1rem  ;
     width: 6.925em;
     height: 0.55em;
-    background-color: #B9C8CD;
+    background-color: #c12e77de;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
 }
@@ -248,6 +248,11 @@ button{
 .context{
     font-weight: bold;
     font-size: 0.9rem;
+}
+
+.intro1{
+    background-image: url('../이미지/intor1.png');
+    width: 20%;
 }
 
 /* mobile  */
