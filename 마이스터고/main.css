@@ -255,6 +255,15 @@ button{
     width: 20%;
 }
 
+.intro1{
+    background-image: url("../이미지/intor1.png");
+    height: 50px;
+    width: 50px;
+}
+.grid-item:hover{
+    cursor: pointer;
+}
+
 /* mobile  */
 @media screen and (max-width: 680px){
     /* 햄버거 메뉴 보이게 하기 */
