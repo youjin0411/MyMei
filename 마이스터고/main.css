@@ -210,6 +210,10 @@ button{
     height: 2.023em;
 }
 
+.grid-item:hover{
+    background-color: #29A5FF;
+}
+
 .grid-container:nth-child(7){
     margin-left: 3rem;
 }
@@ -260,45 +264,14 @@ button{
     height: 50px;
     width: 50px;
 }
+
+a {
+    color:inherit;
+    text-decoration:inherit;
+}
+
 .grid-item:hover{
     cursor: pointer;
-}
-
-
-.part-5 .grid-container > grid-item::after {
-    content:"";
-    display:block;
-    clear:both;
-}
-
-.part-5 .grid-container > grid-item {
-    float:left;
-    width:25%;
-    border:1px solid rgb(255, 7, 156);
-    border-left-width:0;
-    box-sizing:border-box;
-    position:relative;
-}
-
-.part-5 .grid-container > grid-item:first-child {
-    border-left-width:1px;
-}
-
-/* 이렇게 하면 완벽합니다. */
-.part-5 .grid-container > grid-item.active::before {
-    content:"";
-    position:absolute;
-    bottom:-1px;
-    left:0;
-    width:100%;
-    height:1px;
-    background-color:white;
-}
-
-.part-5 .grid-container > grid-item {
-    display:block;
-    padding:10px;
-    text-align:center;
 }
 
 .part-5 .body > div {
@@ -308,7 +281,7 @@ button{
 
 .part-5 .body > div.active {
     display:block;
-}
+} 
 
 /* mobile  */
 @media screen and (max-width: 680px){
