@@ -283,6 +283,29 @@ a {
     display:block;
 } 
 
+.cont{
+    margin-bottom: 20%;
+}
+
+.intor-school{ 
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+.f{
+    background-image: url("../이미지/intor1.png");
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+}
+.intro2{
+    background-image: url("../이미지/intor1.png");
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+}
+
 /* mobile  */
 @media screen and (max-width: 680px){
     /* 햄버거 메뉴 보이게 하기 */
