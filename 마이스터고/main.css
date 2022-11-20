@@ -226,6 +226,7 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-bottom: 8%;
 }
 
 .title{
@@ -283,15 +284,11 @@ a {
     display:block;
 } 
 
-.cont{
-    margin-bottom: 20%;
-}
-
 .intor-school{ 
     place-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 0.1vw;
 }
 .f{
     background-image: url("../이미지/intor1.png");
