@@ -189,6 +189,14 @@ button{
     color: #595959;
 }
 
+.clicks {
+  background-color: #c12e77de;
+}
+
+.nonclicks{
+    background-color: #B9C8CD;
+}
+
 .grid-container{
     display: grid;
     justify-content: center;
@@ -227,6 +235,12 @@ button{
     justify-content: center;
     align-items: center;
     margin-bottom: 8%;
+}
+
+.grid-main-T{
+    text-align: center;
+    margin-top: 0.8vw;
+    font-weight: bold;
 }
 
 .title{
@@ -292,14 +306,14 @@ a {
 }
 .f{
     background-image: url("../이미지/intor1.png");
-    width: 20vw;
-    height: 20vw;
+    width: 20.7vw;
+    height: 21vw;
     background-size: cover;
 }
 .intro2{
     background-image: url("../이미지/intor1.png");
-    width: 20vw;
-    height: 20vw;
+    width: 20.7vw;
+    height: 21vw;
     background-size: cover;
 }
 
