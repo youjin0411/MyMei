@@ -31,6 +31,27 @@ nonClick2.onclick = function(){
     nonClick.style.color = '#595959';
 }
 
+$('.part-4 button').click(function() {
+    var $클릭된_녀석 = $(this);
+    
+    var $part5 = $클릭된_녀석.closest('.part-4');
+    var $body = $part5.find('.bodys');
+    
+    $클릭된_녀석.parent().find('.actives').removeClass('actives');
+    $클릭된_녀석.addClass('actives');
+    
+    // 클릭된 녀석이 형제 중에서 몇 번째 인지 확인(참고로 0부터 셉니다.);
+    var index = $클릭된_녀석.index();
+    
+    // part-5 라는 클래스를 가진 나의 조상중에 나랑 가장 가까운 1개를 포장해주세요.
+    
+    // 기존의 active 된 요소들에서 active 제거
+    $body.find('.actives').removeClass('actives');
+    
+    $body.find('div:nth-child(' + (index + 1) + ')').addClass('actives');
+});
+
+
 $('.part-5 .grid-item').click(function() {
     // 클릭된 당사자 => this
     // 이 함수를 실행한 주어 => this
