@@ -324,13 +324,6 @@ a {
     grid-column-gap: 0.1vw;
 }
 
-.f {
-    background-image: url("../이미지/intor1.png");
-    width: 20.7vw;
-    height: 21vw;
-    background-size: cover;
-}
-
 .intro2 {
     background-image: url("../이미지/intor1.png");
     width: 20.7vw;
