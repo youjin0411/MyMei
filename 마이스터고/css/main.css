@@ -241,10 +241,6 @@ li>a:hover {
     height: 2.023em;
 }
 
-.grid-item:hover {
-    background-color: #29A5FF;
-}
-
 .grid-container:nth-child(7) {
     margin-left: 3rem;
 }
