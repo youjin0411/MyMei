@@ -18,6 +18,10 @@ a {
 /* 커스텀 */
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+.part-52 {
+    flex: 1 1 auto;
+}
+
 .part-52 .head2>ul::after {
     content: "";
     display: block;
