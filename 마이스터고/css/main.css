@@ -274,7 +274,6 @@ li>a:hover {
     height: 0.55em;
     background-color: #c12e77de;
     border-radius: 0.6rem;
-    margin-bottom: 1rem;
 }
 
 .area {
@@ -318,10 +317,12 @@ a {
 }
 
 .intor-school {
+    width: 80%;
+    margin: 0 auto;
     place-items: center;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0.1vw;
+    grid-template-columns: repeat(2, 50%);
+    grid-row-gap: 3vw;
 }
 
 .intro2 {
