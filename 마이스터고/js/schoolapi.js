@@ -30,20 +30,26 @@ let getMenuByAPI = (link) => {
 getMenuByAPI(link)
 
 const show = (jsonString) => {
-    // var title = document.querySelector('.grid-main-T');
     let json = JSON.parse(jsonString);
     let getJsonData = json["dataSearch"]["content"]
-        // let schoolName = getJsonData[0]["schoolName"]
-        // let adress = getJsonData[0]["adres"]
-        // console.log(getJsonData)
-        // console.log(schoolName)
-        // console.log(adress)
+    let title = []
+    let title2 = []
+        //지역별
     for (let i = 0; i < getJsonData['length']; i++) {
-        var num = String(i)
-        var title1 = document.querySelector(`.grid-main-T0`);
-        title1.innerHTML = `<div>${getJsonData[0]["schoolName"]}<div>`;
-        var title2 = document.querySelector(`.grid-main-T1`);
-        title2.innerHTML = `<div>${getJsonData[1]["schoolName"]}<div>`;
+        let num = String(i);
+        title[i] = document.querySelector(`.t${num}`)
+    }
+    for (let i = 0; i < getJsonData['length']; i++) {
+        title[i].innerHTML = `<div>${getJsonData[i]["schoolName"]}<div>`;
+    }
+
+    //지정분야별
+    for (let i = 0; i < getJsonData['length']; i++) {
+        let num = String(i);
+        title2[i] = document.querySelector(`.tt${num}`)
+    }
+    for (let i = 0; i < getJsonData['length']; i++) {
+        title2[i].innerHTML = `<div>${getJsonData[i]["schoolName"]}<div>`;
         // console.log(getJsonData[i]["schoolName"])
     }
 }
