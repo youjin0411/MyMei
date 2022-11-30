@@ -26,6 +26,8 @@ ul {
 
 a {
     text-decoration-line: none;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 body {
@@ -116,191 +118,15 @@ nav a {
     border-radius: 0.5rem;
 }
 
-.nav-list .nav-item:nth-child(3) {
+.nav-list .nav-item:nth-child(1) {
     text-align: center;
     background-color: #fff;
     color: #173473;
     border-radius: 0.7rem;
 }
 
-.nav-item:nth-child(3) .nav-link {
+.nav-item:nth-child(1) .nav-link {
     color: black;
-}
-
-.first-img {
-    height: 28vw;
-    width: 100%;
-    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../이미지/mirimschool.png");
-    background-size: cover;
-    margin-bottom: 1.5rem;
-}
-
-.selctext {
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 20%);
-    grid-column-gap: 12rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
-    color: #595959;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.choi-1 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.linesec {
-    margin: 0 auto;
-    margin-top: 0.5rem;
-    width: 12.925em;
-    height: 0.55em;
-    background-color: #c12e77de;
-    border-radius: 0.6rem;
-    margin-bottom: 1rem;
-}
-
-.line {
-    width: 60rem;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 1.6rem;
-    margin-top: 1rem;
-}
-
-hr {
-    background-color: 0.1em#c12e77de;
-}
-
-.chk:hover {
-    cursor: pointer;
-}
-
-button {
-    border: none;
-    background-color: transparent;
-    font-size: 1rem;
-    font-weight: bolder;
-    color: #595959;
-}
-
-.grid-items:hover {
-    cursor: pointer;
-    color: #595959;
-}
-
-li>a {
-    color: #595959;
-}
-
-li>a:hover {
-    color: #20819F;
-}
-
-.click {
-    color: #20819F;
-}
-
-.nonclick {
-    color: #595959;
-}
-
-.clicks {
-    background-color: #c12e77de;
-}
-
-.nonclicks {
-    background-color: #B9C8CD;
-}
-
-.grid-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(6, 10%);
-    grid-column-gap: 0.1rem;
-    grid-row-gap: 1.8rem;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.grid-item {
-    font-size: 0.75rem;
-    font-weight: 500;
-    text-align: center;
-    justify-content: center;
-    background-color: #D8EEFE;
-    border-radius: 1rem;
-    width: 6.875em;
-    height: 2.023em;
-}
-
-.grid-container:nth-child(7) {
-    margin-left: 3rem;
-}
-
-.text-container {
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(1, 50%);
-    grid-row-gap: 2rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8%;
-}
-
-.grid-main-T {
-    text-align: center;
-    margin-top: 0.8vw;
-    font-weight: bold;
-}
-
-.title {
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.linesec2 {
-    margin: 0 auto;
-    margin-top: 0.001rem;
-    width: 6.925em;
-    height: 0.55em;
-    background-color: #c12e77de;
-    border-radius: 0.6rem;
-}
-
-.area {
-    font-weight: bold;
-    font-size: 1.4rem;
-    color: #4AA4CA;
-}
-
-.context {
-    font-weight: bold;
-    font-size: 0.9rem;
-}
-
-.intro1 {
-    background-image: url('../이미지/intor1.png');
-    width: 20%;
-}
-
-.intro1 {
-    background-image: url("../이미지/intor1.png");
-    height: 50px;
-    width: 50px;
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
 }
 
 .grid-item:hover {
