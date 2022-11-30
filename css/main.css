@@ -128,7 +128,7 @@ nav a {
 }
 
 .first-img {
-    height: 24vw;
+    height: 28vw;
     width: 100%;
     background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../이미지/mirimschool.png");
     background-size: cover;
@@ -167,7 +167,7 @@ nav a {
 }
 
 .line {
-    width: 85rem;
+    width: 60rem;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 1.6rem;
@@ -197,16 +197,12 @@ button {
 
 li>a {
     color: #595959;
-    font-size: 1.1rem;
 }
 
 li>a:hover {
     color: #20819F;
 }
 
-.div2:hover{
-    background-color: #29A5FF;
-}
 .click {
     color: #20819F;
 }
@@ -235,7 +231,7 @@ li>a:hover {
 }
 
 .grid-item {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     font-weight: 500;
     text-align: center;
     justify-content: center;
