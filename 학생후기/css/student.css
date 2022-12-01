@@ -152,6 +152,14 @@ td {
     border: 1px solid #444444;
     padding: 30px;
 }
+.first-td{
+    border: none;
+    
+}
+.last-td{
+    border: none;
+    text-align: center;
+}
 td>a{
     color: black;
     margin-left: 20px;
