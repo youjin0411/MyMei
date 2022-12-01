@@ -63,7 +63,6 @@ $('.part-5 .grid-item').click(function() {
 var slideIndex = 0;
 var slideIndex2 = 0;
 carousel();
-carousel2();
 
 function carousel() {
     var i;
