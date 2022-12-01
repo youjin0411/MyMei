@@ -57,3 +57,17 @@ $('.part-5 .grid-item').click(function() {
 
     $body.find('div:nth-child(' + (index + 1) + ')').addClass('active');
 });
+
+function slideShow() {
+    var i;
+    var x = document.getElementsByClassName(".first-img");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; //처음에 전부 display를 none한다.  
+    }
+    index++;
+    if (index > x.length) {
+        index = 1;
+    }
+    x[index - 1].style.display = "block"; //해당 인덱스는 block으로
+    setTimeout(slideShow, 4000); //함수를 4초마다 호출
+}

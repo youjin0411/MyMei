@@ -50,6 +50,5 @@ const show = (jsonString) => {
     }
     for (let i = 0; i < getJsonData['length']; i++) {
         title2[i].innerHTML = `<div>${getJsonData[i]["schoolName"]}<div>`;
-        // console.log(getJsonData[i]["schoolName"])
     }
 }

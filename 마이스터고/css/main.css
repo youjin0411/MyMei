@@ -127,10 +127,30 @@ nav a {
     color: black;
 }
 
+.grid-item:hover {
+    cursor: pointer;
+}
+
 .first-img {
     height: 24vw;
     width: 100%;
     background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../이미지/mirimschool.png");
+    background-size: cover;
+    margin-bottom: 1.5rem;
+}
+
+.img2 {
+    height: 24vw;
+    width: 100%;
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../이미지/shcoolimg2.png");
+    background-size: cover;
+    margin-bottom: 1.5rem;
+}
+
+.img3 {
+    height: 24vw;
+    width: 100%;
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../이미지/schoolimg3.png");
     background-size: cover;
     margin-bottom: 1.5rem;
 }
@@ -197,16 +217,17 @@ button {
 
 li>a {
     color: #595959;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 li>a:hover {
     color: #20819F;
 }
 
-.div2:hover{
+.div2:hover {
     background-color: #29A5FF;
 }
+
 .click {
     color: #20819F;
 }
@@ -228,14 +249,14 @@ li>a:hover {
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(6, 10%);
-    grid-column-gap: 0.1rem;
+    grid-column-gap: 0.3rem;
     grid-row-gap: 1.8rem;
     text-align: center;
     margin: 0 auto;
 }
 
 .grid-item {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     font-weight: 500;
     text-align: center;
     justify-content: center;
@@ -325,14 +346,14 @@ a {
     margin: 0 auto;
     place-items: center;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(4, 25%);
     grid-row-gap: 3vw;
 }
 
 .intro2 {
     background-image: url("../이미지/intor1.png");
-    width: 20.7vw;
-    height: 21vw;
+    width: 16vw;
+    height: 16vw;
     background-size: cover;
 }
 
