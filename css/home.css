@@ -1,129 +1,42 @@
-    /* Google Fonts  */
-    
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
-    /* base */
-    
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Noto Sans KR', sans-serif;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    html,
-    body {
-        overflow-x: hidden;
-    }
-    
-    ul {
-        list-style: none;
-    }
-    
-    a {
-        text-decoration-line: none;
-    }
-    
-    body {
-        position: relative;
-        font-family: 'Noto Sans KR', sans-serif;
-        font-size: 1rem;
-        color: rgb(19, 19, 19);
-    }
-    
-    p {
-        font-size: 1em;
-    }
-    
-    b {
-        margin-left: 150px;
-    }
-    /* nav */
-    
-    .container {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    
-    header {
-        background-color: #173473;
-    }
-    
-    nav {
-        height: 44px;
-        /* nav글자 높이 */
-        /* 수평배열 */
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        /* nav글자 중앙정렬 */
-    }
-    
-    nav a {
-        color: #fff;
-        font-size: 0.8rem;
-        /* 글자 크기*/
-        font-weight: bold;
-    }
-    
-    .nav-toggle {
-        /* toggle버튼이 보이지 않도록  */
-        display: none;
-        /* visibility: hidden; */
-    }
-    
-    .nav-toggle i {
-        color: #fff;
-    }
-    
-    .nav-toggle {
-        /* toggle버튼이 보이지 않도록  */
-        display: none;
-        /* visibility: hidden; */
-    }
-    
-    .nav-toggle i {
-        color: #fff;
-    }
-    
-    .nav-list {
-        /* 수평배열 */
-        display: flex;
-        column-gap: 5rem;
-        /* 12px = nav글자사이의 거리 */
-        margin-right: 100px;
-    }
-    
-    .nav-link {
-        display: block;
-        /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
-    }
-    
-    .nav-link {
-        color: #fff;
-    }
-    
-    .nav-link:hover {
-        text-align: center;
-        background-color: #fff;
-        color: #000;
-        border-radius: 0.5rem;
-    }
-    
-    .nav-list .nav-item:nth-child(1) {
-        text-align: center;
-        background-color: #fff;
-        color: #173473;
-        border-radius: 0.7rem;
-    }
-    
-    .nav-item:nth-child(1) .nav-link {
-        color: black;
-    }
-    
+.main-img {
+    position: relative;
+    height: 40vw;
+    width: 100%;
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../마이스터고/이미지/mainpage.png");
+    background-size: cover;
+    margin-bottom: 1.5rem;
+}
+
+.meister-img {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.footer {
+    margin-top: 5rem;
+    padding: 30px 0;
+    background: #fff;
+    color: #A6A6A6;
+    font-size: 0.1rem;
+    display: flex;
+}
+
+.grid-container-footer {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    /* grid-column-gap: 0.2rem; */
+}
+
+.margin {
+    margin-left: 12rem;
+}
+
+
+/* mobile  */
+
+@media screen and (max-width: 680px) {
     .main-img {
         position: relative;
         height: 28vw;
@@ -132,85 +45,7 @@
         background-size: cover;
         margin-bottom: 1.5rem;
     }
-    
     .meister-img {
-        position: absolute;
-        padding-left: 10%;
-        width: 20%;
-        height: 10%;
-        margin-top: 10%;
-        margin-left: 10%;
-    }
-    
-    .footer {
-        margin-top: 5rem;
-        padding: 30px 0;
-        background: #fff;
-        color: #A6A6A6;
-        font-size: 0.1rem;
-        display: flex;
-    }
-    
-    .grid-container-footer {
         width: 50%;
-        display: grid;
-        grid-template-columns: repeat(2, 30%);
-        /* grid-column-gap: 0.2rem; */
     }
-    
-    .margin {
-        margin-left: 12rem;
-    }
-    /* mobile  */
-    
-    @media screen and (max-width: 680px) {
-        /* 햄버거 메뉴 보이게 하기 */
-        .nav-toggle {
-            display: block;
-            /*nav-toggle 즉, 밥 아이콘 제일 앞으로 */
-            position: absolute;
-            /*nav-logo 가운데 정렬 */
-            cursor: pointer;
-            /* 마우스 포인터: 손 => 토글에 가져 가면 마우스 커서 생성*/
-        }
-        .nav-logo {
-            /*밥 아이콘을 중앙 정렬 시켜서 아래에 있는 메뉴토글 버튼 보이게*/
-            margin: 0 auto;
-            /*가운데 정렬*/
-        }
-        /* nav의 글자 햄버거 메뉴 안으로 수직으로 flex 방향 바꾸기 */
-        .nav-list {
-            flex-direction: column;
-            /*수직*/
-            position: absolute;
-            /* 원래 있던 자리의 (0,0)위치 */
-            left: 0;
-            /* 왼쪽 정렬 */
-            right: 0;
-            /* 넓이를 100%로 채움 */
-            top: 44px;
-            /* nav높이 -> top높이 부분을 nav아래로 맞춘다. */
-            width: 100%;
-            background-color: #F5F5F5;
-            /* display: none; toggle 버튼이 안 보이게 하도록 toggle nav바가  */
-            /* 영역에 넘쳐나가게 되면 아예 보이지 않게 감추는 것 */
-            height: 0;
-            /*overflow: hidden과 함께 메뉴 안 보이게 하자*/
-            overflow: hidden;
-            transition: 0.3s;
-        }
-        .nav-link {
-            color: #333333;
-        }
-        .nav-item {
-            /* nav 메뉴 글자 사이의 위아래 여백 주기*/
-            padding: 0.5rem 0;
-            border-bottom: 1px solid #333333;
-            text-align: center;
-            /* 글자 가운데 정렬 */
-        }
-        .show-menu {
-            height: 176px;
-            width: 100%;
-        }
-    }
+}
