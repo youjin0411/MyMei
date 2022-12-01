@@ -144,8 +144,62 @@ p{
     word-wrap:break-word;
 }
 i{
-    color: gainsboro;
-    float: right;
+color: rgb(172, 172, 172);
+    
+}
+#user{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    top: 52px;
+}
+#clipboard{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    top: 230px;
+}
+#plan{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    top: 400px;
+}
+#book{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    top: 568px;
+}
+#city{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    bottom: 815px;
+}
+#school{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    bottom: 665px;
+}
+#graduation{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    bottom: 515px;
+}
+#desktop{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    bottom: 365px;
+}
+#money{
+    position: absolute;
+    right: 440px;
+    font-size: 10rem;
+    bottom: 215px;
 }
 .content:hover{
     background: rgb(233, 231, 231);
