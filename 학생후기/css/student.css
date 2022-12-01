@@ -116,39 +116,45 @@ nav a {
     border-radius: 0.5rem ;
 }
 
-.nav-list .nav-item:nth-child(4) {
+.nav-list .nav-item:nth-child(5) {
     text-align: center ;
     background-color: #fff ;
     color: #173473;
     border-radius: 0.7rem ;
 }
 
-.nav-item:nth-child(4) .nav-link {
+.nav-item:nth-child(5) .nav-link {
     color: black ;
 }
+/* table */
+/* table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+td {
+    border: 1px solid #444444;
+    padding: 30px;
+} */
+.review  {
+    font-size: 1.3rem;
+}
 
-/*table인척하는 div*/
-.content{
-    border-top: 1px solid;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    padding-bottom: 50px;
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top:150px;
+    margin-bottom: 60px;
 }
-h3{
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 22px;
+
+td {
+    border: 1px solid #444444;
+    padding: 30px;
 }
-p{
-    word-wrap:break-word;
-}
-i{
-    color: gainsboro;
-    float: right;
-}
-.content:hover{
-    background: rgb(233, 231, 231);
+td>a{
+    color: black;
+    margin-left: 20px;
 }
 .footer {
     margin-top: 5rem;
@@ -164,14 +170,6 @@ i{
     display: grid;
     grid-template-columns: repeat(2, 30%);
     /* grid-column-gap: 0.2rem; */
-}
-@media (max-width:800px){
-    p{
-        font-size: 13px;
-    }
-    h3{
-        font-size: 18px;
-    }
 }
 @media screen and (max-width: 680px) {
     /* 햄버거 메뉴 보이게 하기 */
@@ -223,4 +221,6 @@ i{
         height: 176px;
         width: 100%;
     }
-}
+}   
+
+
