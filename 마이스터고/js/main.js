@@ -58,16 +58,21 @@ $('.part-5 .grid-item').click(function() {
     $body.find('div:nth-child(' + (index + 1) + ')').addClass('active');
 });
 
-function slideShow() {
+
+
+var slideIndex = 0;
+var slideIndex2 = 0;
+carousel();
+carousel2();
+
+function carousel() {
     var i;
-    var x = document.getElementsByClassName(".first-img");
+    var x = document.getElementsByClassName("first-img");
     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; //처음에 전부 display를 none한다.  
+        x[i].style.display = "none";
     }
-    index++;
-    if (index > x.length) {
-        index = 1;
-    }
-    x[index - 1].style.display = "block"; //해당 인덱스는 block으로
-    setTimeout(slideShow, 4000); //함수를 4초마다 호출
+    slideIndex++;
+    if (slideIndex > x.length) { slideIndex = 1 }
+    x[slideIndex - 1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
 }
