@@ -5,10 +5,10 @@
 /* base */
 
 * {
-    box-sizing: border-box ;
-    margin: 0 ;
-    padding: 0 ;
-    font-family: 'Noto Sans KR', sans-serif ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 
 html,
 body {
-    overflow-x: hidden ;
+    overflow-x: hidden;
 }
 
 ul {
@@ -25,14 +25,14 @@ ul {
 }
 
 a {
-    text-decoration-line: none ;
+    text-decoration-line: none;
 }
 
 body {
-    position: relative ;
-    font-family: 'Noto Sans KR', sans-serif ;
-    font-size: 1rem ;
-    color: rgb(19, 19, 19) ;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    color: rgb(19, 19, 19);
 }
 
 p {
@@ -40,7 +40,7 @@ p {
 }
 
 b {
-    margin-left: 150px ;
+    margin-left: 150px;
 }
 
 
@@ -48,20 +48,20 @@ b {
 
 .container {
     margin-left: 1rem;
-    margin-right: 1rem ;
+    margin-right: 1rem;
 }
 
 header {
-    background-color: #173473 ;
+    background-color: #173473;
 }
 
 nav {
-    height: 44px ;
+    height: 44px;
     /* nav글자 높이 */
     /* 수평배열 */
-    display: flex ;
-    justify-content: flex-end ;
-    align-items: center ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     /* nav글자 중앙정렬 */
 }
 
@@ -69,22 +69,22 @@ nav a {
     color: #fff;
     font-size: 0.8rem;
     /* 글자 크기*/
-    font-weight: bold ;
+    font-weight: bold;
 }
 
 .nav-toggle {
     /* toggle버튼이 보이지 않도록  */
-    display: none ;
+    display: none;
     /* visibility: hidden; */
 }
 
 .nav-toggle i {
-    color: #fff ;
+    color: #fff;
 }
 
 .nav-toggle {
     /* toggle버튼이 보이지 않도록  */
-    display: none ;
+    display: none;
     /* visibility: hidden; */
 }
 
@@ -94,118 +94,127 @@ nav a {
 
 .nav-list {
     /* 수평배열 */
-    display: flex ;
-    column-gap: 5rem ;
+    display: flex;
+    column-gap: 5rem;
     /* 12px = nav글자사이의 거리 */
     margin-right: 100px;
 }
 
 .nav-link {
-    display: block ;
+    display: block;
     /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
 }
 
 .nav-link {
-    color: #fff ;
+    color: #fff;
 }
 
 .nav-link:hover {
-    text-align: center ;
+    text-align: center;
     background-color: #fff;
     color: #000;
-    border-radius: 0.5rem ;
+    border-radius: 0.5rem;
 }
 
 .nav-list .nav-item:nth-child(4) {
-    text-align: center ;
-    background-color: #fff ;
+    text-align: center;
+    background-color: #fff;
     color: #173473;
-    border-radius: 0.7rem ;
+    border-radius: 0.7rem;
 }
 
 .nav-item:nth-child(4) .nav-link {
-    color: black ;
+    color: black;
 }
 
+
 /*table인척하는 div*/
-.content{
+
+.content {
     border-top: 1px solid;
     width: 100%;
     height: 100%;
     text-align: center;
     padding-bottom: 50px;
     display: grid;
+    grid-template-columns: 45% 20%;
+    justify-content: center;
+    align-items: center;
 }
-h3{
+
+h3 {
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 22px;
 }
-p{
-    word-wrap:break-word;
+
+p {
+    word-wrap: break-word;
 }
-i{
-color: rgb(172, 172, 172);
-display: grid;
-    
+
+i {
+    color: rgb(172, 172, 172);
+    display: grid;
 }
-#user{
-    position: absolute;
+
+#user {
     right: 440px;
     font-size: 10rem;
     top: 52px;
 }
-#clipboard{
-    position: absolute;
+
+#clipboard {
     right: 440px;
     font-size: 10rem;
     top: 230px;
 }
-#plan{
-    position: absolute;
+
+#plan {
     right: 440px;
     font-size: 10rem;
     top: 400px;
 }
-#book{
-    position: absolute;
+
+#book {
     right: 440px;
     font-size: 10rem;
     top: 568px;
 }
-#city{
-    position: absolute;
+
+#city {
     right: 440px;
     font-size: 10rem;
     bottom: 815px;
 }
-#school{
-    position: absolute;
+
+#school {
     right: 440px;
     font-size: 10rem;
     bottom: 665px;
 }
-#graduation{
-    position: absolute;
+
+#graduation {
     right: 440px;
     font-size: 10rem;
     bottom: 515px;
 }
-#desktop{
-    position: absolute;
+
+#desktop {
     right: 440px;
     font-size: 10rem;
     bottom: 365px;
 }
-#money{
-    position: absolute;
+
+#money {
     right: 440px;
     font-size: 10rem;
     bottom: 215px;
 }
-.content:hover{
+
+.content:hover {
     background: rgb(233, 231, 231);
 }
+
 .footer {
     margin-top: 5rem;
     padding: 30px 0;
@@ -221,14 +230,16 @@ display: grid;
     grid-template-columns: repeat(2, 30%);
     /* grid-column-gap: 0.2rem; */
 }
-@media (max-width:800px){
-    p{
+
+@media (max-width:800px) {
+    p {
         font-size: 13px;
     }
-    h3{
+    h3 {
         font-size: 18px;
     }
 }
+
 @media screen and (max-width: 680px) {
     /* 햄버거 메뉴 보이게 하기 */
     .nav-toggle {
