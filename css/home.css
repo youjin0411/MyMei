@@ -38,11 +38,23 @@ ul {
     display: flex;
     transform: translate(0, 0);
 }
+
+.list2 {
+    padding: 1rem 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+}
   
 .item {
     margin-right: 20px;
     list-style: none;
     user-select: none;
+}
+
+.image1 {
+    margin-left: 20%;
+    border-radius: 10px;
 }
   
 .item:first-child {
@@ -57,6 +69,11 @@ ul {
     display: block;
     -webkit-user-drag: none;
 }
+
+a.link2 {
+    display: block;
+    text-align: center;
+}
   
 .image {
     margin-top: 20px;
@@ -64,6 +81,7 @@ ul {
     width: 200px;
     height: 200px;
     -webkit-user-drag: none;
+    margin-left: 40px;
 }
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
