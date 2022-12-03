@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="/마이스터고/css/main.css">
+    <link rel="stylesheet" href="/마이스터고/css/machinerytechnicalexplain.css">
+    <title>경기게임마이스터고등학교</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container" id="nav-toggle">
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">&ensp; HOME &ensp;</a></li>
+                    <li class="nav-item">
+                        <a href="introduce.html" class="nav-link">&ensp; 소개 &ensp;</a></li>
+                    <li class="nav-item">
+                        <a href="/마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a></li>
+                    <li class="nav-item">
+                        <a href="/대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a></li>
+                    <li class="nav-item">
+                        <a href="/학생후기/student.html" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="school-location">
+        <div class="shcoolLogo main-item"></div>
+        <div class="main-item">
+            <strong class="school-name">경북기계공업고등학교</strong> <br>
+            <i class='bx bxs-map-pin'></i>   주소[42748] 대구광역시 달서구 월배로 275 (상인동) <br>
+            <i class='bx bxs-phone-call'></i> 교무실053-231-8312 행정실053-231-8310 취업부053-231-8384 FAX053-633-8265<br>
+            <i class='bx bxl-internet-explorer'></i> 홈페이지 <a href="http://gbgigong.hs.kr" class="school-link" target="_blank"> http://gbgigong.hs.kr</a>
+        </div>
+    </div>
+
+    <div id="map" style="width:65%;height:400px;margin:auto;"></div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3bcfa263e62aba583bcc2891a7a502fc&libraries=services"></script>
+
+    <div class="school-explain">
+        <p class="school-explainP">
+            <i class='bx bxs-pin bx-sm'></i> <strong class="school-expalin-title">학교소개</strong><br>
+        </p>
+        <p class="school-explainP">
+            7개 학과에 대한 교육 목표 <br>
+            현재 기계메카트로닉스계열과로 축소됨
+        </p>
+    </div>
+
+    <div class="school-class">
+        <p class="school-explainP">
+            <i class='bx bxs-pin bx-sm'></i> <strong class="school-expalin-title">학과소개</strong><br>
+            <strong class="school-expalin-school"><i class='bx bx-pencil' ></i> 기계메카트로닉스계열</strong>
+        </p>
+        <p style="margin-top: 10px;font-size: 18px;">교육내용</p>
+        <div class="dropdown">
+            <button onclick="myFunction3()" class="dropbtn" style="margin-right: 8rem;margin-left: 8rem;">교육내용</button>
+            <div id="myDropdown3" class="dropdown-content">
+                기계분야에 관한 전반적인 학습과 이해를 토대로 CAD/CAM 시스템을 이용한 도면의 작성과 3D 모델링 및 설계 실무 능력의 함양<br>
+                - 전공 과정 : 기계제도, 기계설계, 도면 관리, CAD/CAM실습, 치공구 설계, 금형설계<br>
+                - 심화 과정 : 기계 및 치공구 설계, 자동화기계 설계, 프로젝트 실습을 통한 시제품 제작
+            </div>
+        </div>
+    </div>
+
+    <div class="school-class">
+        <div class="hoverdropdown">
+            <button class="hoverdropbtn">취득 가능 자격증</button>
+            <div class="dropdown-content">
+                생산자동화기능사, 전산응용기계제도기능사, 제품응용모델링기능사, 컴퓨터응용밀링기능사, 컴퓨터응용선반기능사
+            </div>
+        </div> <br>
+        <div class="hoverdropdown" style="margin-top: 30px;">
+            <button class="hoverdropbtn">취업처</button>
+            <div class="dropdown-content">
+                - 기계설계 및 제품 개발 업무 관련 업체(국내 우량 대기업, 국내 유망 중소기업 등) <br>
+                - 자동화기계 관련 부품 설계 및 제품 모델링 관련 업체 <br>
+                - 기계, 자동차, 항공, 조선, 전기？전자 분야의 부품 설계 <br> 및 관련 금형 설계 업체 <br>
+                - CAD/CAM을 활용한 시제품 설계 및 제작 업체 <br>
+                - 메카트로닉스 관련 업체 <br>
+                - 기술직 공무원 등 <br><br>
+                삼성전자,성우테크론㈜,아진산업㈜,에나인더스트리,제일모직,㈜갑우,㈜동방플랜텍,㈜동양E&C,㈜모토닉,㈜양지사,㈜우신산업,㈜윤일정밀,㈜태창레이저,㈜화신테크,㈜ACT,㈜MB성산,㈜PnT,코오롱인더스트리,하이드로텍㈜,한국수력원자력,STS반도체
+
+            </div>
+        </div>
+    </div>
+
+
+      
+    <footer class="footer" style="margin-bottom: 40px;">
+        <div class="grid-container-footer margin ">
+            <div class="grid-item-footer ">my mei</div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer ">my meister school</div>
+            <div class="grid-item-footer ">팩스</div>
+            <div class="grid-item-footer ">마이스터고 설명</div>
+            <div class="grid-item-footer ">이메일</div>
+            <div class="grid-item-footer ">마이스터고 학교</div>
+            <div class="grid-item-footer ">미림여자정보과학고</div>
+        </div>
+        <div class="grid-container-footer ">
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer ">개인정보 처리 방침</div>
+            <div class="grid-item-footer ">이용약관</div>
+        </div>
+    </footer>
+</body>
+<script src="../js/machinerytechnicalexplain.js"></script>
+
+</html>
