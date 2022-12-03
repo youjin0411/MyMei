@@ -212,7 +212,7 @@
                 /* 원래 있던 자리의 (0,0)위치 */
                 left: 0;
                 /* 왼쪽 정렬 */
-                height: 203.1px;
+                height: 0px;
                 /* 넓이를 100%로 채움 */
                 top: 44px;
                 /* nav높이 -> top높이 부분을 nav아래로 맞춘다. */
@@ -236,7 +236,7 @@
                 /* 글자 가운데 정렬 */
             }
             .show-menu {
-                height: 176px;
+                height: 203px;
                 width: 100%;
             }
             .info {
