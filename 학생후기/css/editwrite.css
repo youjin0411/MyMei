@@ -109,7 +109,7 @@
             }
             
             .first-img {
-                height: 24vw;
+                height: 15vw;
                 width: 100%;
                 background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../mirimschool.png");
                 background-size: cover;
@@ -117,7 +117,7 @@
             }
             
             .img2 {
-                height: 24vw;
+                height: 15vw;
                 width: 100%;
                 background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../shcoolimg2.png");
                 background-size: cover;
@@ -125,7 +125,7 @@
             }
             
             .img3 {
-                height: 24vw;
+                height: 15vw;
                 width: 100%;
                 background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../schoolimg3.png");
                 background-size: cover;
@@ -133,27 +133,11 @@
             }
             
             .img4 {
-                height: 24vw;
+                height: 15vw;
                 width: 100%;
                 background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../schoolimg4.png");
                 background-size: cover;
                 margin-bottom: 1.5rem;
-            }
-            
-            .footer {
-                margin-top: 5rem;
-                padding: 30px 0;
-                background: #fff;
-                color: #A6A6A6;
-                font-size: 0.1rem;
-                display: block
-            }
-            
-            .grid-container-footer {
-                width: 100%;
-                display: grid;
-                grid-template-columns: repeat(2, 50%);
-                /* grid-column-gap: 0.2rem; */
             }
             
             .margin {
@@ -179,7 +163,7 @@
             
             .editboard {
                 margin: 0 auto;
-                margin-top: 8vw;
+                margin-top: 2vw;
                 margin-bottom: 10vw;
                 width: 80%;
             }
@@ -270,6 +254,9 @@
                 color: #A6A6A6;
                 font-size: 0.1rem;
                 display: flex;
+                position: fixed;
+                bottom: 0;
+                left: 0;
             }
             
             .grid-container-footer {
