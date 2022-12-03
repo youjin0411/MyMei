@@ -19,14 +19,14 @@
 - 2. 소스코드(vscode) > index.html > Go live
 
 ## ✔️ USED_API
-[커러어넷 학교정보 API](https://www.career.go.kr/cnet/front/openapi/openApiSchoolCenter.do)
+[커리어넷 학교정보 API](https://www.career.go.kr/cnet/front/openapi/openApiSchoolCenter.do)
 <br/>
 [카카오맵 API](https://apis.map.kakao.com)
 
 ---
 
 ## 🤍 API 활용 
-[커러어넷 학교정보 API](https://www.career.go.kr/cnet/front/openapi/openApiSchoolCenter.do)
+[커리어넷 학교정보 API](https://www.career.go.kr/cnet/front/openapi/openApiSchoolCenter.do)
 - api를 활용한 검색 기능 
 - api를 통해 학교 이름 및 학교 홈페이지 링크 가져오기 
 [카카오맵 API](https://apis.map.kakao.com)

@@ -355,6 +355,19 @@ a {
 
 /* mobile  */
 
+@media screen and (max-width: 753px) {
+    .nav-link {
+        font-size: 0.2rem;
+    }
+    .nav-link:hover {
+        border-radius: 0.5rem;
+    }
+    .nav-list .nav-item:nth-child(2) {
+        border-radius: 0.5rem;
+        display: inline-block;
+    }
+}
+
 @media screen and (max-width: 680px) {
     /* 햄버거 메뉴 보이게 하기 */
     .nav-toggle {
@@ -404,5 +417,8 @@ a {
     .show-menu {
         height: 176px;
         width: 100%;
+    }
+    .nav-item:hover {
+        background-color: #fff;
     }
 }

@@ -101,11 +101,6 @@ nav a {
 }
 
 .nav-link {
-    display: block;
-    /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
-}
-
-.nav-link {
     color: #fff;
 }
 
@@ -234,14 +229,9 @@ i {
 @media screen and (max-width: 753px) {
     .nav-link {
         font-size: 0.2rem;
-        display: inline-block;
     }
     .nav-link:hover {
         border-radius: 0.5rem;
-    }
-    .nav-list .nav-item:nth-child(3) {
-        border-radius: 0.5rem;
-        display: inline-block;
     }
 }
 
@@ -255,7 +245,6 @@ i {
 }
 
 @media screen and (max-width: 690px) {
-    /* 햄버거 메뉴 보이게 하기 */
     .nav-toggle {
         display: block;
         /*nav-toggle 즉, 밥 아이콘 제일 앞으로 */
@@ -272,21 +261,13 @@ i {
     /* nav의 글자 햄버거 메뉴 안으로 수직으로 flex 방향 바꾸기 */
     .nav-list {
         flex-direction: column;
-        /*수직*/
         position: absolute;
-        /* 원래 있던 자리의 (0,0)위치 */
         left: 0;
-        /* 왼쪽 정렬 */
         right: 0;
-        /* 넓이를 100%로 채움 */
         top: 44px;
-        /* nav높이 -> top높이 부분을 nav아래로 맞춘다. */
         width: 100%;
         background-color: #F5F5F5;
-        /* display: none; toggle 버튼이 안 보이게 하도록 toggle nav바가  */
-        /* 영역에 넘쳐나가게 되면 아예 보이지 않게 감추는 것 */
-        height: 203.1px;
-        /*overflow: hidden과 함께 메뉴 안 보이게 하자*/
+        height: 0px;
         overflow: hidden;
         transition: 0.3s;
     }
@@ -301,7 +282,7 @@ i {
         /* 글자 가운데 정렬 */
     }
     .show-menu {
-        height: 176px;
+        height: 203px;
         width: 100%;
     }
     #user {
@@ -333,5 +314,8 @@ i {
     }
     p {
         font-size: 0.5rem;
+    }
+    .nav-item:hover {
+        background-color: #fff;
     }
 }

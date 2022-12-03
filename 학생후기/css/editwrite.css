@@ -104,7 +104,6 @@
             
             .nav-item:nth-child(5) .nav-link {
                 background-color: #fff;
-                color: #173473;
                 border-radius: 0.5rem;
                 color: black;
             }
@@ -295,7 +294,7 @@
                 }
                 .nav-list .nav-item:nth-child(3) {
                     border-radius: 0.5rem;
-                    display: inline-block;
+                    background-color: #fff;
                 }
             }
             
@@ -330,7 +329,7 @@
                     background-color: #F5F5F5;
                     /* display: none; toggle 버튼이 안 보이게 하도록 toggle nav바가  */
                     /* 영역에 넘쳐나가게 되면 아예 보이지 않게 감추는 것 */
-                    height: 203.1px;
+                    height: 0px;
                     /*overflow: hidden과 함께 메뉴 안 보이게 하자*/
                     overflow: hidden;
                     transition: 0.3s;
@@ -346,8 +345,14 @@
                     /* 글자 가운데 정렬 */
                 }
                 .show-menu {
-                    height: 176px;
+                    height: 203px;
                     width: 100%;
+                }
+                .nav-item:hover {
+                    background-color: #fff;
+                }
+                .nav-item:nth-child(5) {
+                    background-color: #fff;
                 }
             }
             

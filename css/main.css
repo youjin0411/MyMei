@@ -104,14 +104,10 @@
             border-radius: 0.5rem;
         }
         
-        .nav-list .nav-item:nth-child(1) {
-            text-align: center;
+        .nav-item:nth-child(1) .nav-link {
             background-color: #fff;
             color: #173473;
-            border-radius: 0.7rem;
-        }
-        
-        .nav-item:nth-child(1) .nav-link {
+            border-radius: 0.5rem;
             color: black;
         }
         
@@ -212,7 +208,7 @@
                 /* 원래 있던 자리의 (0,0)위치 */
                 left: 0;
                 /* 왼쪽 정렬 */
-                height: 203.1px;
+                right: 0;
                 /* 넓이를 100%로 채움 */
                 top: 44px;
                 /* nav높이 -> top높이 부분을 nav아래로 맞춘다. */
@@ -220,7 +216,7 @@
                 background-color: #F5F5F5;
                 /* display: none; toggle 버튼이 안 보이게 하도록 toggle nav바가  */
                 /* 영역에 넘쳐나가게 되면 아예 보이지 않게 감추는 것 */
-                height: 0;
+                height: 0px;
                 /*overflow: hidden과 함께 메뉴 안 보이게 하자*/
                 overflow: hidden;
                 transition: 0.3s;
@@ -236,7 +232,7 @@
                 /* 글자 가운데 정렬 */
             }
             .show-menu {
-                height: 176px;
+                height: 203px;
                 width: 100%;
             }
             .info {
@@ -247,6 +243,12 @@
             }
             .head2>h1 {
                 font-size: 1.2rem;
+            }
+            .nav-item:nth-child(1) {
+                background-color: #fff;
+            }
+            .nav-item:hover {
+                background-color: #fff;
             }
         }
         
