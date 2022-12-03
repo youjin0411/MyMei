@@ -1,11 +1,11 @@
 .shcoolLogo {
-    background-image: url('../이미지/mirim.png');
+    background-image: url('../이미지/경기게임마이스터고.jpg');
     width: 19vw;
     height: 19vw;
     background-size: cover;
 }
 
-.school-link:visited {
+.school-link:hover {
     color: blue;
 }
 
