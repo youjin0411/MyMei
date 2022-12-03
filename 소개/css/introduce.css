@@ -98,11 +98,6 @@
     }
     
     .nav-link {
-        display: block;
-        /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
-    }
-    
-    .nav-link {
         color: #fff;
     }
     
