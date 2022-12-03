@@ -231,6 +231,20 @@ i {
     /* grid-column-gap: 0.2rem; */
 }
 
+@media screen and (max-width: 753px) {
+    .nav-link {
+        font-size: 0.2rem;
+        display: inline-block;
+    }
+    .nav-link:hover {
+        border-radius: 0.5rem;
+    }
+    .nav-list .nav-item:nth-child(3) {
+        border-radius: 0.5rem;
+        display: inline-block;
+    }
+}
+
 @media (max-width:800px) {
     p {
         font-size: 13px;
@@ -240,7 +254,7 @@ i {
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 690px) {
     /* 햄버거 메뉴 보이게 하기 */
     .nav-toggle {
         display: block;
@@ -289,5 +303,35 @@ i {
     .show-menu {
         height: 176px;
         width: 100%;
+    }
+    #user {
+        font-size: 7rem;
+    }
+    #clipboard {
+        font-size: 7rem;
+    }
+    #plan {
+        font-size: 7rem;
+    }
+    #book {
+        font-size: 7rem;
+    }
+    #city {
+        font-size: 7rem;
+    }
+    #school {
+        font-size: 7rem;
+    }
+    #graduation {
+        font-size: 7rem;
+    }
+    #desktop {
+        font-size: 7rem;
+    }
+    #money {
+        font-size: 7rem;
+    }
+    p {
+        font-size: 0.5rem;
     }
 }

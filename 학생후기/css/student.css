@@ -5,10 +5,10 @@
 /* base */
 
 * {
-    box-sizing: border-box ;
-    margin: 0 ;
-    padding: 0 ;
-    font-family: 'Noto Sans KR', sans-serif ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 
 html,
 body {
-    overflow-x: hidden ;
+    overflow-x: hidden;
 }
 
 ul {
@@ -25,14 +25,14 @@ ul {
 }
 
 a {
-    text-decoration-line: none ;
+    text-decoration-line: none;
 }
 
 body {
-    position: relative ;
-    font-family: 'Noto Sans KR', sans-serif ;
-    font-size: 1rem ;
-    color: rgb(19, 19, 19) ;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    color: rgb(19, 19, 19);
 }
 
 p {
@@ -40,7 +40,7 @@ p {
 }
 
 b {
-    margin-left: 150px ;
+    margin-left: 150px;
 }
 
 
@@ -48,20 +48,20 @@ b {
 
 .container {
     margin-left: 1rem;
-    margin-right: 1rem ;
+    margin-right: 1rem;
 }
 
 header {
-    background-color: #173473 ;
+    background-color: #173473;
 }
 
 nav {
-    height: 44px ;
+    height: 44px;
     /* nav글자 높이 */
     /* 수평배열 */
-    display: flex ;
-    justify-content: flex-end ;
-    align-items: center ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     /* nav글자 중앙정렬 */
 }
 
@@ -69,22 +69,22 @@ nav a {
     color: #fff;
     font-size: 0.8rem;
     /* 글자 크기*/
-    font-weight: bold ;
+    font-weight: bold;
 }
 
 .nav-toggle {
     /* toggle버튼이 보이지 않도록  */
-    display: none ;
+    display: none;
     /* visibility: hidden; */
 }
 
 .nav-toggle i {
-    color: #fff ;
+    color: #fff;
 }
 
 .nav-toggle {
     /* toggle버튼이 보이지 않도록  */
-    display: none ;
+    display: none;
     /* visibility: hidden; */
 }
 
@@ -94,39 +94,39 @@ nav a {
 
 .nav-list {
     /* 수평배열 */
-    display: flex ;
-    column-gap: 5rem ;
+    display: flex;
+    column-gap: 5rem;
     /* 12px = nav글자사이의 거리 */
     margin-right: 100px;
 }
 
 .nav-link {
-    display: block ;
+    display: block;
     /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
 }
 
 .nav-link {
-    color: #fff ;
+    color: #fff;
 }
 
 .nav-link:hover {
-    text-align: center ;
+    text-align: center;
     background-color: #fff;
     color: #000;
-    border-radius: 0.5rem ;
+    border-radius: 0.5rem;
 }
 
-.nav-list .nav-item:nth-child(5) {
-    text-align: center ;
-    background-color: #fff ;
+.nav-item:nth-child(3) .nav-link {
+    text-align: center;
+    background-color: #fff;
     color: #173473;
-    border-radius: 0.7rem ;
+    border-radius: 0.7rem;
 }
 
-.nav-item:nth-child(5) .nav-link {
-    color: black ;
-}
+
 /* table */
+
+
 /* table{
     display: flex;
     align-items: center;
@@ -136,7 +136,8 @@ td {
     border: 1px solid #444444;
     padding: 30px;
 } */
-.review  {
+
+.review {
     font-size: 1.3rem;
 }
 
@@ -144,7 +145,7 @@ table {
     width: 60%;
     border-collapse: collapse;
     margin: auto;
-    margin-top:150px;
+    margin-top: 150px;
     margin-bottom: 60px;
 }
 
@@ -152,18 +153,21 @@ td {
     border: 1px solid #444444;
     padding: 30px;
 }
-.first-td{
+
+.first-td {
     border: none;
-    
 }
-.last-td{
+
+.last-td {
     border: none;
     text-align: center;
 }
-td>a{
+
+td>a {
     color: black;
     margin-left: 20px;
 }
+
 .footer {
     margin-top: 5rem;
     padding: 30px 0;
@@ -179,7 +183,22 @@ td>a{
     grid-template-columns: repeat(2, 30%);
     /* grid-column-gap: 0.2rem; */
 }
-@media screen and (max-width: 680px) {
+
+@media screen and (max-width: 753px) {
+    .nav-link {
+        font-size: 0.2rem;
+        display: inline-block;
+    }
+    .nav-link:hover {
+        border-radius: 0.5rem;
+    }
+    .nav-list .nav-item:nth-child(3) {
+        border-radius: 0.5rem;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 690px) {
     /* 햄버거 메뉴 보이게 하기 */
     .nav-toggle {
         display: block;
@@ -229,6 +248,4 @@ td>a{
         height: 176px;
         width: 100%;
     }
-}   
-
-
+}
