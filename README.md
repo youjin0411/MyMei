@@ -15,7 +15,7 @@
 
 
 ## ✔️ 실행방법
-- 1. GitHub Page 링크 접속
+- 1. [GitHub Page 링크 접속](https://youjin0411.github.io/My-mei-My-meister-school-/)
 - 2. 소스코드(vscode) > index.html > Go live
 
 <img src="https://user-images.githubusercontent.com/85982818/205447092-3838d389-0b8b-467e-a749-4eba8d442b0c.mp4">
