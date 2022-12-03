@@ -1,13 +1,22 @@
-.school-link:visited{
+.shcoolLogo {
+    background-image: url('../이미지/mirim.png');
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+}
+
+.school-link:visited {
     color: blue;
 }
-.school-location{
+
+.school-location {
     display: grid;
-    grid-template-columns: 13% 50%;
+    grid-template-columns: 20% 70%;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
 }
-.school-name{
+
+.school-name {
     font-size: 28px;
 }
