@@ -12,24 +12,24 @@ ul {
 }
 
 .main-img {
-    position: relative;
-    height: 40vw;
+    height: 30vw;
     width: 100%;
     background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../마이스터고/이미지/mainpage.png");
     background-size: cover;
     margin-bottom: 1.5rem;
 }
 
-.meister-img {
-    height: 25vw;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 20%;
-}
-
 .info {
     text-align: center;
     top: 80%;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
 }
 
 .list {
@@ -40,8 +40,8 @@ ul {
 }
 
 .list2 {
+    place-content: center;
     padding: 1rem 0;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 30%);
 }
@@ -52,9 +52,16 @@ ul {
     user-select: none;
 }
 
+li.item {
+    width: 100%;
+}
+
 .image1 {
-    margin-left: 20%;
     border-radius: 10px;
+    width: 100%;
+    height: 14rem;
+    margin: 0 auto;
+    display: flex;
 }
 
 .item:first-child {
@@ -71,15 +78,24 @@ ul {
 }
 
 a.link2 {
-    display: block;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+
+.newstext {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: bold;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
     margin-top: 20px;
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 8rem;
+    height: 8rem;
     -webkit-user-drag: none;
     margin-left: 40px;
 }
@@ -101,6 +117,10 @@ a.link2 {
 .head2 {
     padding-top: 5%;
     text-align: center;
+}
+
+.head2>h1 {
+    font-size: 1.5rem;
 }
 
 .part-52 .head2>ul::after {
@@ -182,4 +202,25 @@ a.link2 {
 
 .margin {
     margin-left: 12rem;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -5000000000;
+}
+
+.first-img-text {
+    position: relative;
+}
+
+.mesiter-img {
+    background-image: url('../마이스터고/이미지/meister-img.png');
+    height: 48%;
+    width: 52%;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 5%;
 }
