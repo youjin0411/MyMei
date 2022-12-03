@@ -461,4 +461,13 @@
                 .nav-item:nth-child(3) {
                     background-color: #fff;
                 }
+                .maint {
+                    font-size: 1rem;
+                }
+                .like {
+                    font-size: 1rem;
+                }
+                .h2 {
+                    font-size: 0.8rem;
+                }
             }
