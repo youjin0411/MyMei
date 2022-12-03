@@ -440,7 +440,7 @@
                         background-color: #F5F5F5;
                         /* display: none; toggle 버튼이 안 보이게 하도록 toggle nav바가  */
                         /* 영역에 넘쳐나가게 되면 아예 보이지 않게 감추는 것 */
-                        height: 0;
+                        height: 203.1px;
                         /*overflow: hidden과 함께 메뉴 안 보이게 하자*/
                         overflow: hidden;
                         transition: 0.3s;
