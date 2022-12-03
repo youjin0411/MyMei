@@ -502,21 +502,12 @@
                     div.grid-item-footer {
                         font-size: 1px;
                     }
-                    .part-52 {
-                        margin-top: 3rem;
-                    }
-                }
-                
-                @media screen and (max-width: 508px) {
-                    .part-52 {
-                        margin-top: 4rem;
+                    .first-img {
+                        height: 30vw;
                     }
                 }
                 
                 @media screen and (max-width: 480px) {
-                    .part-52 {
-                        margin-top: 6rem;
-                    }
                     #word {
                         font-size: 0.7rem;
                     }
@@ -540,5 +531,10 @@
                     }
                     div.grid-item-footer {
                         font-size: 1px;
+                    }
+                    .first-img {
+                        width: 100vw;
+                        height: 45vw;
+                        background-size: cover;
                     }
                 }
