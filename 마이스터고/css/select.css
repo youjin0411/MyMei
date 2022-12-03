@@ -90,3 +90,13 @@ a {
 .tt0 {
     background-image: url('../이미지/거제공업고등학교.png');
 }
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+#schoolList>li>a {
+    font-size: 1rem;
+}
