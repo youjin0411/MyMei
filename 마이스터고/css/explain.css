@@ -1,0 +1,13 @@
+.school-link:visited{
+    color: blue;
+}
+.school-location{
+    display: grid;
+    grid-template-columns: 13% 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.school-name{
+    font-size: 28px;
+}
