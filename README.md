@@ -18,6 +18,8 @@
 - 1. GitHub Page 링크 접속
 - 2. 소스코드(vscode) > index.html > Go live
 
+<img src="https://user-images.githubusercontent.com/85982818/205447092-3838d389-0b8b-467e-a749-4eba8d442b0c.mp4">
+
 ## ✔️ USED_API
 [커리어넷 학교정보 API](https://www.career.go.kr/cnet/front/openapi/openApiSchoolCenter.do)
 <br/>
