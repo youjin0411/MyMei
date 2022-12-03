@@ -98,6 +98,11 @@
             }
             
             .nav-link {
+                display: block;
+                /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
+            }
+            
+            .nav-link {
                 color: #fff;
             }
             
@@ -344,6 +349,7 @@
             @media screen and (max-width: 753px) {
                 .nav-link {
                     font-size: 0.2rem;
+                    display: inline-block;
                 }
                 .nav-link:hover {
                     border-radius: 0.5rem;
@@ -403,7 +409,56 @@
                     height: 203px;
                     width: 100%;
                 }
+                .intor-school {
+                    width: 100%;
+                    margin: 0 auto;
+                    place-items: center;
+                    display: grid;
+                    grid-template-columns: repeat(2, 50%);
+                    grid-row-gap: 3vw;
+                }
+                .intro2 {
+                    background-image: url("../이미지/intor1.png");
+                    width: 16vw;
+                    height: 16vw;
+                    background-size: cover;
+                    margin: 0 auto;
+                }
+                .grid-container {
+                    width: 100%;
+                    grid-template-columns: repeat(4, 12%);
+                    grid-row-gap: 0.5rem;
+                    margin-left: -1.5rem;
+                }
+                .grid-item {
+                    font-size: 0.65rem;
+                    font-weight: 500;
+                    width: 6.875em;
+                    height: 2.023em;
+                }
+                div.linesec2.chks2 {
+                    width: 8rem;
+                    height: 1.2vw;
+                }
+                .margin {
+                    margin-left: 2rem;
+                }
+                .grid-container-footer {
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    /* grid-column-gap: 0.2rem; */
+                }
+                div.grid-item-footer {
+                    font-size: 1px;
+                }
+                .first-img {
+                    height: 30vw;
+                }
                 .nav-item:hover {
+                    background-color: #fff;
+                }
+                .nav-item:nth-child(3) {
                     background-color: #fff;
                 }
             }
