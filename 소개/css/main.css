@@ -101,11 +101,6 @@ nav a {
 }
 
 .nav-link {
-    display: block;
-    /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
-}
-
-.nav-link {
     color: #fff;
 }
 
@@ -116,15 +111,16 @@ nav a {
     border-radius: 0.5rem;
 }
 
-.nav-list .nav-item:nth-child(2) {
+.nav-item:nth-child(2) .nav-link {
     text-align: center;
     background-color: #fff;
     color: #173473;
     border-radius: 0.7rem;
+    color: black;
 }
 
-.nav-item:nth-child(2) .nav-link {
-    color: black;
+.grid-item:hover {
+    cursor: pointer;
 }
 
 .first-img {
@@ -287,17 +283,6 @@ li>a:hover {
     font-size: 0.9rem;
 }
 
-.intro1 {
-    background-image: url('../이미지/intor1.png');
-    width: 20%;
-}
-
-.intro1 {
-    background-image: url("../이미지/intor1.png");
-    height: 50px;
-    width: 50px;
-}
-
 a {
     color: inherit;
     text-decoration: inherit;
@@ -323,13 +308,6 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-row-gap: 3vw;
-}
-
-.intro2 {
-    background-image: url("../이미지/intor1.png");
-    width: 20.7vw;
-    height: 21vw;
-    background-size: cover;
 }
 
 .footer {
@@ -368,7 +346,19 @@ a {
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 753px) {
+    .nav-link {
+        font-size: 0.2rem;
+    }
+    .nav-link:hover {
+        border-radius: 0.5rem;
+    }
+    .nav-list .nav-item:nth-child(3) {
+        border-radius: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 690px) {
     /* 햄버거 메뉴 보이게 하기 */
     .nav-toggle {
         display: block;
@@ -399,7 +389,7 @@ a {
         background-color: #F5F5F5;
         /* display: none; toggle 버튼이 안 보이게 하도록 toggle nav바가  */
         /* 영역에 넘쳐나가게 되면 아예 보이지 않게 감추는 것 */
-        height: 203.1px;
+        height: 0px;
         /*overflow: hidden과 함께 메뉴 안 보이게 하자*/
         overflow: hidden;
         transition: 0.3s;
@@ -415,7 +405,7 @@ a {
         /* 글자 가운데 정렬 */
     }
     .show-menu {
-        height: 176px;
+        height: 203px;
         width: 100%;
     }
     .nav-item:hover {
