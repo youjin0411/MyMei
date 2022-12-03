@@ -343,6 +343,12 @@
         .search-wrap {
             display: flex;
         }
+        .nav-item:nth-child(5) {
+            background-color: #fff;
+        }
+        .nav-item:hover {
+            background-color: #fff;
+        }
     }
     
     @media screen and (max-width: 485px) {

@@ -104,7 +104,6 @@
             
             .nav-item:nth-child(5) .nav-link {
                 background-color: #fff;
-                color: #173473;
                 border-radius: 0.5rem;
                 color: black;
             }
@@ -295,7 +294,7 @@
                 }
                 .nav-list .nav-item:nth-child(3) {
                     border-radius: 0.5rem;
-                    display: inline-block;
+                    background-color: #fff;
                 }
             }
             
@@ -348,6 +347,12 @@
                 .show-menu {
                     height: 203px;
                     width: 100%;
+                }
+                .nav-item:hover {
+                    background-color: #fff;
+                }
+                .nav-item:nth-child(5) {
+                    background-color: #fff;
                 }
             }
             
