@@ -21,15 +21,20 @@
             <div class="nav-menu">
                 <ul class="nav-list" id="nav-list">
                     <li class="nav-item" onClick="location.href='../index.html'">
-                        <a href="../index.html" class="nav-link">&ensp; HOME &ensp;</a></li>
-                    <li class="nav-item" onClick="location.href='../소개/introduce.html'">
-                        <a href="../소개/introduce.html" class="nav-link">&ensp; 소개 &ensp;</a></li>
+                        <a href="../index.html" class="nav-link">&ensp; HOME &ensp;</a>
+                    </li>
                     <li class="nav-item" onClick="location.href='../마이스터고/areaMeister.html'">
-                        <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a></li>
+                        <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a>
+                    </li>
                     <li class="nav-item" onClick="location.href='../대학/university.html'">
-                        <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a></li>
-                    <li class="nav-item" onClick="location.href='../학생후기/student.html'">
-                        <a href="../학생후기/student.html" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                        <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a>
+                    </li>
+                    <li class="nav-item" onClick="location.href='../학생후기/student.php'">
+                        <a href="../학생후기/student.php" class="nav-link">&ensp; 학생후기 &ensp;</a>
+                    </li>
+                    <li class="nav-item" onClick="location.href='./게시판/borad.html'">
+                        <a href="./게시판/borad.html" class="nav-link">&ensp; 게시판 &ensp;</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -40,30 +45,34 @@
             <strong class="school-name">거제공업고등학교</strong> <br>
             <i class='bx bxs-map-pin'></i> 주소 : [53257] 경상남도 거제시 계룡로11길 63 거제공업고등학교 <br>
             <i class='bx bxs-phone-call'></i> 교무실055-630-9012 행정실055-630-9005 취업부055-630-9029 FAX055-630-9052 <br>
-            <i class='bx bxl-internet-explorer'></i> 홈페이지 <a href="http://geoje-th-h.gne.go.kr" class="school-link" target="_blank"> http://geoje-th-h.gne.go.kr</a>
+            <i class='bx bxl-internet-explorer'></i> 홈페이지 <a href="http://geoje-th-h.gne.go.kr" class="school-link"
+                target="_blank"> http://geoje-th-h.gne.go.kr</a>
         </div>
     </div>
 
     <div id="map" style="width:65%;height:400px;margin:auto;"></div>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3bcfa263e62aba583bcc2891a7a502fc&libraries=services"></script>
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3bcfa263e62aba583bcc2891a7a502fc&libraries=services"></script>
 
     <div class="school-explain">
         <p class="school-explainP">
             <i class='bx bxs-pin bx-sm'></i> <strong class="school-expalin-title">학교소개</strong><br>
         </p>
         <p class="school-explainP">
-            우리 학교는 세계 제1의 조선 산업도시 거제에서 ‘인성을 갖춘 창의적인 조선기능 인재 육성’이라는교육목표 아래<br> 기본을 갖춘 실력 있는 기능인！<br> 나눔과 배려를 실천하는 사회인！<br> 미래사회를 선도할 창의적인 창업인을 육성하겠습니다.
+            우리 학교는 세계 제1의 조선 산업도시 거제에서 ‘인성을 갖춘 창의적인 조선기능 인재 육성’이라는교육목표 아래<br> 기본을 갖춘 실력 있는 기능인！<br> 나눔과 배려를 실천하는
+            사회인！<br> 미래사회를 선도할 창의적인 창업인을 육성하겠습니다.
         </p>
     </div>
 
     <div class="school-class">
         <p class="school-explainP">
             <i class='bx bxs-pin bx-sm'></i> <strong class="school-expalin-title">학과소개</strong><br>
-            <strong class="school-expalin-school"><i class='bx bx-pencil' ></i> 조선전기과</strong>
+            <strong class="school-expalin-school"><i class='bx bx-pencil'></i> 조선전기과</strong>
         </p>
         <p style="margin-top: 10px;font-size: 18px;">교육내용</p>
         <div class="dropdown">
-            <button onclick="myFunction3()" class="dropbtn" style="margin-right: 8rem;margin-left: 8rem;">1학년 공통과목</button>
+            <button onclick="myFunction3()" class="dropbtn" style="margin-right: 8rem;margin-left: 8rem;">1학년
+                공통과목</button>
             <div id="myDropdown3" class="dropdown-content">
                 - 보통교과 : 국어, 수학, 영어, 사회, 도덕, 과학, 체육, 미술, 음악 <br> - 전문교과 : 기초제도, 조선일반, 정보기술기초, 공업입문, 기초제도
             </div>
@@ -74,25 +83,29 @@
         <div class="hoverdropdown">
             <button class="hoverdropbtn">취득 가능 자격증</button>
             <div class="dropdown-content">
-                공유압기능사, 기계조립기능사, 생산자동화기능사, 선체건조기능사, 승강기기능사, 용접기능사, 워드프로세서1급, 워드프로세서2급, 워드프로세서3급, 전기기능사, 전산응용기계제도기능사, 전산응용조선제도기능사, 전자기기기능사, 전자캐드기능사, 정보기기운용기능사, 정보처리기능사, 컴퓨터응용밀링기능사, 컴퓨터응용선반기능사, 컴퓨터활용능력1급, 컴퓨터활용능력2급, 컴퓨터활용능력3급, 특수용접기능사, 상공회의소한자
+                공유압기능사, 기계조립기능사, 생산자동화기능사, 선체건조기능사, 승강기기능사, 용접기능사, 워드프로세서1급, 워드프로세서2급, 워드프로세서3급, 전기기능사, 전산응용기계제도기능사,
+                전산응용조선제도기능사, 전자기기기능사, 전자캐드기능사, 정보기기운용기능사, 정보처리기능사, 컴퓨터응용밀링기능사, 컴퓨터응용선반기능사, 컴퓨터활용능력1급, 컴퓨터활용능력2급,
+                컴퓨터활용능력3급, 특수용접기능사, 상공회의소한자
             </div>
         </div> <br>
         <div class="hoverdropdown" style="margin-top: 30px;">
             <button class="hoverdropbtn">취업처</button>
             <div class="dropdown-content">
-                삼성중공업, 대우조선해양, 한국수력원자력, 한국전력공사, 남부발전, 서부발전, 남동발전, 한전KPS, 삼성전자, 에버랜드, 한화건설, 쏘테크, 동화엔텍, 화인텍, 하이에어코리아, 태극엔터프라이즈, 한국철도공사, 티엠씨, 우주엠엔이, 성관기공, 한국카본외 다수
+                삼성중공업, 대우조선해양, 한국수력원자력, 한국전력공사, 남부발전, 서부발전, 남동발전, 한전KPS, 삼성전자, 에버랜드, 한화건설, 쏘테크, 동화엔텍, 화인텍, 하이에어코리아,
+                태극엔터프라이즈, 한국철도공사, 티엠씨, 우주엠엔이, 성관기공, 한국카본외 다수
             </div>
         </div>
     </div>
 
     <div class="school-class">
         <p class="school-explainP" style="margin-top: 40px;">
-            <strong class="school-expalin-school"><i class='bx bx-pencil' ></i> 조선기계과</strong>
+            <strong class="school-expalin-school"><i class='bx bx-pencil'></i> 조선기계과</strong>
         </p>
         <p style="margin-top: 10px;font-size: 18px;">교육내용</p>
 
         <div class="dropdown">
-            <button onclick="myFunction4()" class="dropbtn" style="margin-right: 8rem;margin-left: 8rem;">1학년 공통과목</button>
+            <button onclick="myFunction4()" class="dropbtn" style="margin-right: 8rem;margin-left: 8rem;">1학년
+                공통과목</button>
             <div id="myDropdown4" class="dropdown-content">
                 - 보통교과 : 국어, 수학, 영어, 사회, 도덕, 과학, 체육, 미술, 음악 <br> - 전문교과 : 기초제도, 조선일반, 정보기술기초, 공업입문, 기초제도
             </div>
@@ -103,13 +116,16 @@
         <div class="hoverdropdown">
             <button class="hoverdropbtn">취득 가능 자격증</button>
             <div class="dropdown-content">
-                공유압기능사, 기계조립기능사, 생산자동화기능사, 승강기기능사, 용접기능사, 워드프로세서1급, 워드프로세서2급, 워드프로세서3급, 전기기능사, 전산응용기계제도기능사, 전산응용조선제도기능사, 전자기기기능사, 전자캐드기능사, 정보기기운용기능사, 정보처리기능사, 컴퓨터응용밀링기능사, 컴퓨터응용선반기능사, 컴퓨터활용능력1급, 컴퓨터활용능력2급, 컴퓨터활용능력3급, 특수용접기능사, 상공회의소한자
+                공유압기능사, 기계조립기능사, 생산자동화기능사, 승강기기능사, 용접기능사, 워드프로세서1급, 워드프로세서2급, 워드프로세서3급, 전기기능사, 전산응용기계제도기능사, 전산응용조선제도기능사,
+                전자기기기능사, 전자캐드기능사, 정보기기운용기능사, 정보처리기능사, 컴퓨터응용밀링기능사, 컴퓨터응용선반기능사, 컴퓨터활용능력1급, 컴퓨터활용능력2급, 컴퓨터활용능력3급, 특수용접기능사,
+                상공회의소한자
             </div>
         </div> <br>
         <div class="hoverdropdown" style="margin-top: 30px;">
             <button class="hoverdropbtn">취업처</button>
             <div class="dropdown-content">
-                삼성중공업, 대우조선해양, 한국수력원자력, 한국전력공사, 남부발전, 서부발전, 남동발전, 한전KPS, 삼성전자, 에버랜드, 한화건설, 쏘테크, 동화엔텍, 화인텍, 하이에어코리아, 태극엔터프라이즈, 한국철도공사, 티엠씨, 우주엠엔이, 성관기공, 한국카본외 다수
+                삼성중공업, 대우조선해양, 한국수력원자력, 한국전력공사, 남부발전, 서부발전, 남동발전, 한전KPS, 삼성전자, 에버랜드, 한화건설, 쏘테크, 동화엔텍, 화인텍, 하이에어코리아,
+                태극엔터프라이즈, 한국철도공사, 티엠씨, 우주엠엔이, 성관기공, 한국카본외 다수
             </div>
         </div>
     </div>
