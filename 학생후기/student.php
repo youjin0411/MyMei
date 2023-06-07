@@ -38,8 +38,8 @@
                     <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a></li>
                 <li class="nav-item" onClick="location.href='../대학/university.html'">
                     <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a></li>
-                <li class="nav-item" onClick="location.href='../학생후기/student.html'">
-                    <a href="../학생후기/student.html" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                <li class="nav-item" onClick="location.href='../학생후기/student.php'">
+                    <a href="../학생후기/student.php" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
             </ul>
         </div>
     </nav>
@@ -74,8 +74,8 @@
             <th width="300">학교명</th>
         </tr>
         <?php
-        include('./dbconn_test.php');
-        // include('./dbconn.php');
+        //include('./dbconn_test.php');
+        include('./dbconn.php');
 
         $list_num = 5; // 한 페이지에 표시할 항목 수
         $page_num = 4; // 한 블럭 당 페이지 수
