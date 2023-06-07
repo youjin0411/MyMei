@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>HOME</title>
+    <title>시험 페이지</title>
+    <link rel="stylesheet" href="test.css">
 </head>
 
 <body>
@@ -43,9 +37,38 @@
         </nav>
     </header>
 
-    
+    <h1>시험 페이지</h1>
+
+    <div class="question">
+        <p>1. 다음 중 올바른 HTML 태그는?</p>
+        <div class="answer">
+            <input type="radio" name="q1" value="a"> <a>
+                <input type="radio" name="q1" value="b">
+                <div>
+                    <input type="radio" name="q1" value="c"> <span>
+                </div>
+        </div>
+
+        <div class="question">
+            <p>2. CSS에서 ID 선택자는 어떻게 표현하나요?</p>
+            <div class="answer">
+                <input type="radio" name="q2" value="a"> #
+                <input type="radio" name="q2" value="b"> .
+                <input type="radio" name="q2" value="c"> /
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. JavaScript에서 변수를 선언하는 키워드는?</p>
+            <div class="answer">
+                <input type="radio" name="q3" value="a"> var
+                <input type="radio" name="q3" value="b"> let
+                <input type="radio" name="q3" value="c"> const
+            </div>
+        </div>
+
+        <button onclick="calculateScore()">제출하기</button>
+        <div id="result"></div>
 </body>
-<script src="home.js"></script>
-<script src="index.js"></script>
 
 </html>
