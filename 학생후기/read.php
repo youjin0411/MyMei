@@ -61,9 +61,10 @@ $re = mysqli_fetch_array($result); // 결과를 가져옵니다.
 </header>
 
 <div class="board_img">
-    <img class="board_main_img" src="../image/mirimschool.png">
-    <h1 class="img_main_text" sytle="top:80%" >재학생 이야기</h1>
-    <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
+    <div class="board_main_img"><!--src="../image/mirimschool.png"-->
+        <h1 class="img_main_text">재학생 이야기</h1>
+        <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
+    </div>
 </div>
 
 <table class="board_view">

@@ -1,5 +1,14 @@
+.board_main_img{
+    background: linear-gradient( to top, white, #395ca9 );
+    width: 100vw;
+    height: 45vh;
+    border: none;
+    justify-content: center; /* 가로 가운데 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+    margin-bottom: 30px;
+}
 
-.board_img > .img_main_text{
+.board_main_img > h1{
     position: absolute;
     top: 22%;
     left: 50%;
@@ -16,6 +25,7 @@
     transform: translate( -50%, -50% );
     color: white;
     font-size: 20px;
+    border: none;
 }
 
 .board_view{
@@ -31,6 +41,7 @@ td{
 
 .line{
     border-bottom: 2px solid #173473;
+    margin-top: 30px;
 }
 
 .content{
