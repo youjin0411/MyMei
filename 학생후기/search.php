@@ -7,9 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../학생후기/css/style.css">
     <link rel="stylesheet" href="../학생후기/css/student.css">
     <link rel="stylesheet" href="../학생후기/css/read.css">
@@ -21,7 +19,6 @@
 
 </head>
 <body>
-
     <header class="header" id="header">
     <nav class="nav container" id="nav-toggle">
         <div class="nav-toggle" id="nav-toggle">
@@ -33,14 +30,14 @@
             <ul class="nav-list" id="nav-list">
                 <li class="nav-item" onClick="location.href='../index.html'">
                     <a href="../index.html" class="nav-link">&ensp; HOME &ensp;</a></li>
-                <li class="nav-item" onClick="location.href='../소개/introduce.html'">
-                    <a href="../소개/introduce.html" class="nav-link">&ensp; 소개 &ensp;</a></li>
                 <li class="nav-item" onClick="location.href='../마이스터고/areaMeister.html'">
                     <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a></li>
                 <li class="nav-item" onClick="location.href='../대학/university.html'">
                     <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a></li>
-                <li class="nav-item" onClick="location.href='../학생후기/student.html'">
-                    <a href="../학생후기/student.html" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                <li class="nav-item" onClick="location.href='./student.php'">
+                    <a href="./student.php" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                <li class="nav-item" onClick="location.href='../마이스터고사/test.html'">
+                    <a href="../마이스터고사/test.html" class="nav-link">&ensp; 마이스터고사 &ensp;</a></li>
             </ul>
         </div>
     </nav>
