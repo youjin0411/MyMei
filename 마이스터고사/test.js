@@ -47,10 +47,17 @@ function calculateScore() {
     if (score === 100) {
         result += "당신은 마이스터고를 잘 아시는군요!!";
     } else if (score >= 50) {
-        result += "마이스터고에 대해 조금만 더 공부하시면 완벽할 것 같습니다!";
+        result += "마이스터고를 어느 정도는 알고 있군요!";
     } else {
-        result += "아쉽지만 마이스터고와는 인연이 없는 것 같군요";
+        result += "마이스터고에 대해 조금 더 공부하세요";
     }
 
     document.getElementById('result').innerHTML = result;
 }
+
+function resett() {
+    var radioButtons = document.querySelectorAll('input[type="radio"]');
+    for (var i = 0; i < radioButtons.length; i++) {
+      radioButtons[i].checked = false;  
+    }
+  }
