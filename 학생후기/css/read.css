@@ -1,47 +1,41 @@
 .board_main_img{
-    background: linear-gradient( to top, white, #395ca9 );
-    width: 100vw;
-    height: 45vh;
-    border: none;
+    background: linear-gradient( to top, white, #395ca9 );    
+    height: 350px;
     justify-content: center; /* 가로 가운데 정렬 */
     align-items: center; /* 세로 가운데 정렬 */
     margin-bottom: 30px;
 }
 
-.board_main_img > h1{
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate( -50%, -50% );
-    color: white;
-    font-size: 30px;
-}
-
-
-.img_sub_text{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate( -50%, -50% );
-    color: white;
-    font-size: 20px;
-    border: none;
-}
 
 .board_view{
     margin: 0px auto;
-    margin-top:20px;
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
+p{
+    color: #5b5b5b;
+    font-size: medium;
+}
 td{
     border : none;
-    border-collapse: collapse;
 }
 
-.line{
+
+td > h1{
+    margin-left: 100px;
+    margin-right: 100px;
     border-bottom: 2px solid #173473;
+    padding-bottom: 20px;
+
+}
+
+tr > .line{
     margin-top: 30px;
+    padding: 0px none;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .content{
@@ -50,12 +44,18 @@ td{
 }
 
 .content_border{
+    width: auto;
     height : auto;
     max-height : 400px;
     overflow: auto;
-    font-weight: 500;
+    font-weight: 450;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 300px;
     border-collapse: collapse;
-    border : 1px solid black;
+    font-size: 18px;
 }
 
-
+tr > .subContent{
+    padding-left: 200px;
+}

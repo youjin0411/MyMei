@@ -1,6 +1,6 @@
 <?php
-//include('./dbconn_test.php');
-include('./dbconn.php');
+include('./dbconn_test.php');
+// include('./dbconn.php');
 
 $column = $_GET['column'];
 $idx = $_GET['a']; // idx 변수에 get 메소드를 사용하여 매개변수 a의 값을 가져옵니다.
@@ -22,7 +22,6 @@ $re = mysqli_fetch_array($result); // 결과를 가져옵니다.
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="../학생후기/css/style.css">
-  <link rel="stylesheet" href="../학생후기/css/editwrite.css">
   <link rel="stylesheet" href="../학생후기/css/student.css">
   <link rel="stylesheet" href="../학생후기/css/read.css">
   <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"> </script>
@@ -76,22 +75,21 @@ $re = mysqli_fetch_array($result); // 결과를 가져옵니다.
         </td>
     </tr>
     <tr>
-        <td style="text-align : right">
+        <td class = subContent style="text-align : left;">
             <?php
-            echo $re['name']. "<pre></pre>";
-            echo  $re['school'] ;
+            echo "<p> 작성자 : {$re['name']} </p>";
+            echo "<p>학교명 : {$re['school']} </p>";
             ?>
         </td>
     </tr>
     <tr>
-        <td class = content_border style="background-color:rgb(237, 237, 237); border : 1px solid black;">
+        <td class = content_border>
                 <?php
                 echo " {$re['content']}"
                 ?>
         </td>
     </tr>
 </table>
-
 <script>
     window.addEventListener("DOMContentLoaded", funcion(){
         var table_view = document.querySelector('.border_view');
@@ -100,4 +98,27 @@ $re = mysqli_fetch_array($result); // 결과를 가져옵니다.
     })
 </script>
 </body>
+
+<footer class="footer ">
+        <div class="grid-container-footer margin ">
+            <div class="grid-item-footer ">my mei</div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer ">my meister school</div>
+            <div class="grid-item-footer ">팩스</div>
+            <div class="grid-item-footer ">마이스터고 설명</div>
+            <div class="grid-item-footer ">이메일</div>
+            <div class="grid-item-footer ">마이스터고 학교</div>
+            <div class="grid-item-footer ">미림여자정보과학고</div>
+        </div>
+        <div class="grid-container-footer ">
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer ">개인정보 처리 방침</div>
+            <div class="grid-item-footer ">이용약관</div>
+        </div>
+    </footer>
 </html>

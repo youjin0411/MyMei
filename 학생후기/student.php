@@ -11,8 +11,8 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../학생후기/css/style.css">
-    <link rel="stylesheet" href="../학생후기/css/editwrite.css">
     <link rel="stylesheet" href="../학생후기/css/student.css">
+    <link rel="stylesheet" href="../학생후기/css/read.css">
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"> </script>
     <script src="https://kit.fontawesome.com/def66b134a.js" crossorigin="anonymous"></script>
 
@@ -38,18 +38,20 @@
                     <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a></li>
                 <li class="nav-item" onClick="location.href='../대학/university.html'">
                     <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a></li>
-                <li class="nav-item" onClick="location.href='../학생후기/student.php'">
-                    <a href="../학생후기/student.php" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                <li class="nav-item" onClick="location.href='../학생후기/student.html'">
+                    <a href="../학생후기/student.html" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
             </ul>
         </div>
     </nav>
     </header>
 
 <div class="board_img">
-    <img class="board_main_img" src="../image/mirimschool.png">
-    <h1 class="img_main_text">재학생 이야기</h1>
-    <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
+    <div class="board_main_img"><!--src="../image/mirimschool.png"-->
+        <h1 class="img_main_text">재학생 이야기</h1>
+        <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
+    </div>
 </div>
+
 
 <div class="board_top">
     <form method="post" action="search.php">
@@ -58,10 +60,9 @@
             <button type="submit" class="btn_search" name="btn_search" onclick="location.href='../학생후기/search.php'">
             <i class="fa-solid fa-magnifying-glass"></i>
             </button>
-
         </div>
     </form>
-    <button type="button" class='btn_write' onclick="location.href='../학생후기/editwrite.html'">글쓰기</button>
+    <button type="button" class="btn_write" onclick="location.href='../학생후기/editwrite.html'">글쓰기</button>
 </div>
 
 <div class="border_header">
@@ -70,12 +71,12 @@
         <tr height="50">
             <th width="200">NO</th>
             <th width ="800">제목</th>
-            <th width="300">글쓴이</th>
+            <th width="300">작성자</th>
             <th width="300">학교명</th>
         </tr>
         <?php
-        //include('./dbconn_test.php');
-        include('./dbconn.php');
+        include('./dbconn_test.php');
+        // include('./dbconn.php');
 
         $list_num = 5; // 한 페이지에 표시할 항목 수
         $page_num = 4; // 한 블럭 당 페이지 수
@@ -177,9 +178,6 @@
 
 <div class="box-bottom" style="height : 200px">
 </div>
-
-</body>
-
 <footer class="footer ">
         <div class="grid-container-footer margin ">
             <div class="grid-item-footer ">my mei</div>
@@ -202,6 +200,8 @@
             <div class="grid-item-footer ">이용약관</div>
         </div>
     </footer>
+
+</body>
 
 <script src="../학생후기/js/main.js"></script>
 <script src="../학생후기/js/edit.js"></script>

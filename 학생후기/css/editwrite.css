@@ -32,12 +32,15 @@
                 margin-left: 150px;
             }
 
-            .edittext textarea {
+            
+
+            .edittext > textarea {
                 border: 0.1px solid rgb(197, 197, 197);
                 border-radius: 0.4pc;
                 padding-left: 0.5pc;
                 padding-right: 0.5pc;
                 padding-top: 0.3pc;
+                margin-top: 4px;
                 height: 20pc;
             }
             /* nav */
@@ -118,38 +121,6 @@
                 color: black;
             }
             
-            .first-img {
-                height: 15vw;
-                width: 100%;
-                background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../image/mirimschool.png");
-                background-size: cover;
-                margin-bottom: 1.5rem;
-            }
-            
-            .img2 {
-                height: 15vw;
-                width: 100%;
-                background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../image/shcoolimg2.png");
-                background-size: cover;
-                margin-bottom: 1.5rem;
-            }
-            
-            .img3 {
-                height: 15vw;
-                width: 100%;
-                background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../image/schoolimg3.png");
-                background-size: cover;
-                margin-bottom: 1.5rem;
-            }
-            
-            .img4 {
-                height: 15vw;
-                width: 100%;
-                background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../image/schoolimg4.png");
-                background-size: cover;
-                margin-bottom: 1.5rem;
-            }
-            
             .margin {
                 margin-left: 2rem;
             }
@@ -168,35 +139,37 @@
             }
 
             .save {
-                background-color: #eeeeeecd;
                 display: flex;
-                width: 13vw;
-                height: 4vw;
                 text-align: center;
                 justify-content: center;
                 align-items: center;
                 margin: auto;
-                border: 0.1px solid rgb(197, 197, 197);
                 border-radius: 7vw;
-                font-size: 1em;
+                width: 160px;
+                height: 50px;
+                border: 0px;
+                background: #173473;
+                outline: none;
+                font-size: 18px;
+                color: white;
+                font-weight: lighter;
+                margin-top: 20px;
             }
-            
-            .selector {
-                width: 70%;
-                margin : 0 auto;
+            .save:hover{
+                background: #386aba;
             }
-            
             .editboard {
                 margin: 0 auto;
                 margin-top: 2vw;
                 margin-bottom: 10vw;
-                width: 80%;
+                margin-left: 200px;
+                margin-right: 200px;
             }
             
-            #header2 {
+            .header2 {
                 display: flex;
-                padding: 1vw;
-                width: 83.6%;
+                padding: 1vw 0vw 1vw 0vw;
+                width: 100%;
                 margin: 0 auto;
                 margin-top: 0vw;
                 font-weight: bold;
@@ -204,7 +177,7 @@
             }
             
             .edittext {
-                width: 85%;
+                width: 100%;
                 display: grid;
                 grid-template-columns: 7% 93%;
                 grid-row-gap: 0.5vw;
@@ -214,35 +187,41 @@
 
             .edittext .header_edit {
                 text-align: right;
+                font-size: 18px;
+                width: 6vw;
             }
 
-            .header_edit {
+            
+            .header2 > .header_edit {
                 color: #000;
-                font-size: 1rem;
-                width: 5.5vw;
+                font-size: 23px;
+                width: 6vw;
                 text-align: center;
             }
             
             .input_title {
                 width: 93%;
-                padding-top: 0pc;
-                padding-left: 0.5pc;
-                padding-right: 0.5pc;
+                padding-top: 0px;
+                padding-left: 3px;
+                padding-right: 3px;
+                margin-left: 5px;
                 background-color: #ffffff00;
                 border: #ffffff00;
                 color: #000;
-                font-size: 0.9em;
+                font-size: 20px;
                 border-bottom: 0.1px solid rgb(197, 197, 197);
             }
 
             .input {
-                width: 93%;
-                font-size: 0.9em;
-                margin-left: 1.5vw;
-                margin-bottom: 1.5pc;
+                box-sizing: border-box;
+                width: 97%;
+                font-size: 18px;
+                margin-left: 30px;
+                margin-bottom: 10px;
                 padding-top: 0pc;
                 padding-left: 0.5pc;
                 padding-right: 0.5pc;
+                padding-bottom: 5px;
                 background-color: #ffffff00;
                 border: #ffffff00;
                 color: #000;

@@ -11,8 +11,9 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../학생후기/css/style.css">
-    <link rel="stylesheet" href="../학생후기/css/editwrite.css">
     <link rel="stylesheet" href="../학생후기/css/student.css">
+    <link rel="stylesheet" href="../학생후기/css/read.css">
+
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"> </script>
     <script src="https://kit.fontawesome.com/def66b134a.js" crossorigin="anonymous"></script>
 
@@ -38,17 +39,18 @@
                     <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a></li>
                 <li class="nav-item" onClick="location.href='../대학/university.html'">
                     <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a></li>
-                <li class="nav-item" onClick="location.href='../학생후기/student.php'">
-                    <a href="../학생후기/student.php" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                <li class="nav-item" onClick="location.href='../학생후기/student.html'">
+                    <a href="../학생후기/student.html" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
             </ul>
         </div>
     </nav>
     </header>
 
-<div class="board_img">
-    <img class="board_main_img" src="../image/mirimschool.png">
-    <h1 class="img_main_text">재학생 이야기</h1>
-    <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
+    <div class="board_img">
+    <div class="board_main_img"><!--src="../image/mirimschool.png"-->
+        <h1 class="img_main_text">재학생 이야기</h1>
+        <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
+    </div>
 </div>
 
 <div class="board_top">
@@ -73,8 +75,8 @@
             <th width="300">학교명</th>
         </tr>
         <?php
-        include('./dbconn.php');
-        //include('./dbconn_test.php');
+        // include('./dbconn.php');
+        include('./dbconn_test.php');
         if (isset($_POST['btn_search'])) {
             $searchQuery = $_POST['search'];
         }
@@ -173,6 +175,28 @@
     ?>
 
 </div>
+<footer class="footer ">
+        <div class="grid-container-footer margin ">
+            <div class="grid-item-footer ">my mei</div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer ">my meister school</div>
+            <div class="grid-item-footer ">팩스</div>
+            <div class="grid-item-footer ">마이스터고 설명</div>
+            <div class="grid-item-footer ">이메일</div>
+            <div class="grid-item-footer ">마이스터고 학교</div>
+            <div class="grid-item-footer ">미림여자정보과학고</div>
+        </div>
+        <div class="grid-container-footer ">
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer "></div>
+            <div class="grid-item-footer ">개인정보 처리 방침</div>
+            <div class="grid-item-footer ">이용약관</div>
+        </div>
+    </footer>
 </body>
 
 <script src="../학생후기/js/main.js"></script>
