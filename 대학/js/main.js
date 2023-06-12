@@ -57,3 +57,89 @@ $('.part-5 .grid-item').click(function() {
 
     $body.find('div:nth-child(' + (index + 1) + ')').addClass('active');
 });
+//클릭 이미지
+function showAnswerImage() {
+    var image = document.getElementById('answerImage');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function toggleFlicker() {
+    var image = document.getElementById('questionImage');
+    image.classList.remove('flickering');
+  }
+
+  function showAnswerImage2() {
+    var image = document.getElementById('answerImage2');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage3() {
+    var image = document.getElementById('answerImage3');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage4() {
+    var image = document.getElementById('answerImage4');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage5() {
+    var image = document.getElementById('answerImage5');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage6() {
+    var image = document.getElementById('answerImage6');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage7() {
+    var image = document.getElementById('answerImage7');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage8() {
+    var image = document.getElementById('answerImage8');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage9() {
+    var image = document.getElementById('answerImage9');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }
+  function showAnswerImage10() {
+    var image = document.getElementById('answerImage10');
+  if (image.style.display === 'none') {
+    image.style.display = 'block';
+  } else {
+    image.style.display = 'none';
+  }
+  }

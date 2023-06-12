@@ -18,6 +18,7 @@ html {
 html,
 body {
     overflow-x: hidden;
+    background-color: #99B8D7;
 }
 
 ul {
@@ -208,11 +209,12 @@ i {
 
 .footer {
     margin-top: 5rem;
-    padding: 30px 0;
+    padding: 30px;
     background: #fff;
-    color: #A6A6A6;
+    color: #606060;
     font-size: 0.1rem;
     display: flex;
+    background-color: #99B8D7;
 }
 
 .grid-container-footer {
@@ -221,6 +223,37 @@ i {
     grid-template-columns: repeat(2, 30%);
     /* grid-column-gap: 0.2rem; */
 }
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #99B8D7;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .chat-image {
+    width: 900px;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #answerImage {
+    display: none;
+  }
+  .flickering {
+    animation: flickerAnimation 1.5s infinite;
+  }
+  
+  @keyframes flickerAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 @media (max-width:800px) {
     p {
