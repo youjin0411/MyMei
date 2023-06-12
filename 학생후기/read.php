@@ -46,18 +46,18 @@ $re = mysqli_fetch_array($result); // 결과를 가져옵니다.
             <ul class="nav-list" id="nav-list">
                 <li class="nav-item" onClick="location.href='../index.html'">
                     <a href="../index.html" class="nav-link">&ensp; HOME &ensp;</a></li>
-                <li class="nav-item" onClick="location.href='../소개/introduce.html'">
-                    <a href="../소개/introduce.html" class="nav-link">&ensp; 소개 &ensp;</a></li>
                 <li class="nav-item" onClick="location.href='../마이스터고/areaMeister.html'">
                     <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a></li>
                 <li class="nav-item" onClick="location.href='../대학/university.html'">
                     <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a></li>
-                <li class="nav-item" onClick="location.href='../학생후기/student.php'">
-                    <a href="../학생후기/student.php" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                <li class="nav-item" onClick="location.href='./student.php'">
+                    <a href="./student.php" class="nav-link">&ensp; 학생후기 &ensp;</a></li>
+                <li class="nav-item" onClick="location.href='../마이스터고사/test.html'">
+                    <a href="../마이스터고사/test.html" class="nav-link">&ensp; 마이스터고사 &ensp;</a></li>
             </ul>
         </div>
     </nav>
-</header>
+    </header>
 
 <div class="board_img">
     <div class="board_main_img"><!--src="../image/mirimschool.png"-->
