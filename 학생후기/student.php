@@ -177,7 +177,6 @@
 
     </div>
 
-    <div class="box-bottom" style="height : 200px">
     </div>
     <footer class="footer">
         <div class="grid-container-footer margin ">
