@@ -45,8 +45,8 @@
     </header>
     <div class="board_img">
         <div class="board_main_img"><!--src="../image/mirimschool.png"-->
-            <h1 class="img_main_text">재학생 이야기</h1>
-            <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
+            <h1 class="img_main_text" style="-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none">재학생 이야기</h1>
+            <p class="img_sub_text" style="-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
         </div>
     </div>
     <form method="post" action="board.php" name="formBoard" id="formBoard">
@@ -61,7 +61,7 @@
                     <div class="header_edit">작성자&nbsp;&nbsp;: </div>
                     <input type="text" placeholder="ex)   김00" class="input" name="uname" id="uname">
                     <div class="header_edit">학교명&nbsp;&nbsp;: </div>
-                    <input type="text" placeholder="ex)   00마이스터고" class="input" name="uschool" id="uschool">
+                    <input type="text" placeholder="ex)   00마이스터고등학교" class="input" name="uschool" id="uschool">
                     <div class="header_edit">후기&nbsp;&nbsp;: </div>
                     <textarea name="ucontent" rows="10" placeholder="ex)   마이스터고 학생이 취업하는 방법" class="input"
                         id="ucontent" style="resize: none" name="ucontent"></textarea>
@@ -70,26 +70,24 @@
             <button class="save" id="saveBtn" type="submit" value="등록" style='cursor:pointer'>등록</button>
         </div>
     </form>
-    <footer class="footer ">
-        <div class="grid-container-footer margin ">
-            <div class="grid-item-footer ">my mei</div>
-            <div class="grid-item-footer "></div>
-            <div class="grid-item-footer ">my meister school</div>
-            <div class="grid-item-footer ">팩스</div>
-            <div class="grid-item-footer ">마이스터고 설명</div>
-            <div class="grid-item-footer ">이메일</div>
-            <div class="grid-item-footer ">마이스터고 학교</div>
-            <div class="grid-item-footer ">미림여자정보과학고</div>
+    <footer class="footer">
+        <div class="grid-container-footer">
+            <div class="grid-item-footer">my mei</div>
+            <!-- <div class="grid-item-footer"></div> -->
+            <div class="grid-item-footer">my meister school</div>
+            <div class="grid-item-footer">마이스터고 설명</div>
+            <div class="grid-item-footer">마이스터고 학교</div>
         </div>
-        <div class="grid-container-footer ">
-            <div class="grid-item-footer "></div>
-            <div class="grid-item-footer "></div>
-            <div class="grid-item-footer "></div>
-            <div class="grid-item-footer "></div>
-            <div class="grid-item-footer "></div>
-            <div class="grid-item-footer "></div>
-            <div class="grid-item-footer ">개인정보 처리 방침</div>
-            <div class="grid-item-footer ">이용약관</div>
+        <div class="grid-container-footer">
+            <div class="grid-item-footer">팩스</div>
+            <div class="grid-item-footer">이메일</div>
+            <div class="grid-item-footer">미림여자정보과학고</div>
+        </div>
+        <div class="grid-container-footer myinfo">
+            <div class="grid-item-footer">개인정보 처리 방침</div>
+        </div>
+        <div class="grid-container-footer myinfo">
+            <div class="grid-item-footer">이용약관</div>
         </div>
     </footer>
 </body>

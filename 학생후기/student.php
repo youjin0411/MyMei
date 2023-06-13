@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +18,8 @@
 
     <title>학생후기</title>
 
-</head>
-<body>
+    </head>
+    <body>
 
     <header class="header" id="header">
     <nav class="nav container" id="nav-toggle">
@@ -45,15 +45,15 @@
     </nav>
     </header>
 
-<div class="board_img">
+    <div class="board_img">
     <div class="board_main_img"><!--src="../image/mirimschool.png"-->
         <h1 class="img_main_text">재학생 이야기</h1>
         <p class="img_sub_text">재학중인 학생들의 생생한 이야기를 들어보세요!</p>
     </div>
-</div>
+    </div>
 
 
-<div class="board_top">
+    <div class="board_top">
     <form method="post" action="search.php">
         <div class="board_search">
             <input type = "text" placeholder="Search" name="search">
@@ -63,9 +63,9 @@
         </div>
     </form>
     <button type="button" class="btn_write" onclick="location.href='../학생후기/editwrite.html'">글쓰기</button>
-</div>
+    </div>
 
-<div class="border_header">
+    <div class="border_header">
     <hr class="hr_header">
     <table class = "table_header" >
         <tr height="50">
@@ -74,6 +74,7 @@
             <th width="300">작성자</th>
             <th width="300">학교명</th>
         </tr>
+
         <?php
         include('./dbconn_test.php');
         // include('./dbconn.php');
@@ -174,11 +175,11 @@
     mysqli_close($conn);
     ?>
 
-</div>
+    </div>
 
-<div class="box-bottom" style="height : 200px">
-</div>
-<footer class="footer ">
+    <div class="box-bottom" style="height : 200px">
+    </div>
+    <footer class="footer">
         <div class="grid-container-footer margin ">
             <div class="grid-item-footer ">my mei</div>
             <div class="grid-item-footer "></div>
@@ -200,9 +201,5 @@
             <div class="grid-item-footer ">이용약관</div>
         </div>
     </footer>
-
-</body>
-
-<script src="../학생후기/js/main.js"></script>
-<script src="../학생후기/js/edit.js"></script>
+    </body>
 </html>

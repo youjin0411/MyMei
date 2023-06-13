@@ -8,49 +8,50 @@
         padding: 0;
         font-family: 'Noto Sans KR', sans-serif;
     }
-    
+
     html {
         scroll-behavior: smooth;
     }
-    
+
     html,
     body {
         overflow-x: hidden;
     }
-    
+
     ul {
         list-style: none;
     }
-    
+
     a {
         text-decoration-line: none;
     }
-    
+
     body {
         position: relative;
         font-family: 'Noto Sans KR', sans-serif;
         font-size: 1rem;
         color: rgb(19, 19, 19);
     }
-    
+
     p {
         font-size: 1em;
     }
-    
+
     b {
         margin-left: 150px;
     }
+
     /* nav */
-    
+
     .container {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    
+
     header {
         background-color: #173473;
     }
-    
+
     nav {
         height: 44px;
         /* nav글자 높이 */
@@ -60,34 +61,34 @@
         align-items: center;
         /* nav글자 중앙정렬 */
     }
-    
+
     nav a {
         color: #fff;
         font-size: 0.8rem;
         /* 글자 크기*/
         font-weight: bold;
     }
-    
+
     .nav-toggle {
         /* toggle버튼이 보이지 않도록  */
         display: none;
         /* visibility: hidden; */
     }
-    
+
     .nav-toggle i {
         color: #fff;
     }
-    
+
     .nav-toggle {
         /* toggle버튼이 보이지 않도록  */
         display: none;
         /* visibility: hidden; */
     }
-    
+
     .nav-toggle i {
         color: #fff;
     }
-    
+
     .nav-list {
         /* 수평배열 */
         display: flex;
@@ -95,49 +96,49 @@
         /* 12px = nav글자사이의 거리 */
         margin-right: 100px;
     }
-    
+
     .nav-link {
         display: block;
         /* a 태그가 한 줄 전체를 차지해서 링크가 동작하도록... */
     }
-    
+
     .nav-link {
         color: #fff;
     }
-    
+
     .nav-link:hover {
         text-align: center;
         background-color: #fff;
         color: #000;
         border-radius: 0.5rem;
     }
-    
+
     .nav-item:nth-child(4) .nav-link {
         background-color: #fff;
         color: #173473;
         border-radius: 0.5rem;
         color: black;
     }
-    
+
     td>a {
         font-size: 1rem;
     }
-    
+
     table */ table {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     td {
         border: 1px solid #444444;
         padding: 30px;
     }
-    
+
     .review {
         font-size: 1.3rem;
     }
-    
+
     table {
         width: 80%;
         border-collapse: collapse;
@@ -145,47 +146,47 @@
         margin-top: 150px;
         margin-bottom: 60px;
     }
-    
+
     td {
         border: 1px solid #444444;
         padding: 30px;
     }
-    
+
     .first-td {
         border: none;
     }
-    
+
     .last-td {
         border: none;
         text-align: center;
     }
-    
+
     td>a {
         color: black;
         margin-left: 20px;
     }
-    
+
     #board-search .search-window {
         padding: 15px 0;
         background-color: #f9f7f900;
     }
-    
+
     #board-search .search-window .search-wrap {
         position: relative;
         width: 80%;
     }
-    
+
     #board-search .search-window .search-wrap input {
         height: 40px;
         width: 100%;
         font-size: 0.1rem;
         padding: 7px 14px;
     }
-    
+
     #board-search .search-window .search-wrap input:focus {
         outline: 0;
     }
-    
+
     #board-search .search-window .search-wrap .btn {
         position: absolute;
         right: 0;
@@ -195,38 +196,38 @@
         padding: 0;
         font-size: 0.1rem;
     }
-    
+
     #search {
         background-color: #fff;
         border: solid #000;
     }
-    
+
     .btn-dark {
         background: #555;
         color: #fff;
     }
-    
+
     .btn-dark:hover,
     .btn-dark:focus {
         background: #373737;
         /* border-color: #373737; */
         color: #fff;
     }
-    
+
     .btn-dark {
         background: rgba(255, 255, 255, 0);
         color: #000;
         border: solid #000;
         border-width: 0.19vw;
     }
-    
+
     .btn-dark:hover,
     .btn-dark:focus {
         background: #37373700;
         border-color: #373737;
         color: #000;
     }
-    
+
     form {
         display: grid;
         grid-template-columns: 70% 30%;
@@ -235,7 +236,7 @@
         justify-items: center;
         align-items: center;
     }
-    
+
     .btn,
     .btn-dark,
     .edit {
@@ -243,8 +244,9 @@
         padding-left: 2%;
         padding-right: 2%;
     }
-    
+
     .footer {
+        text-align: center;
         margin-top: 5rem;
         padding: 30px 0;
         background: #fff;
@@ -252,28 +254,30 @@
         font-size: 0.1rem;
         display: flex;
     }
-    
+
     .grid-container-footer {
         width: 50%;
         display: grid;
         grid-template-columns: repeat(2, 30%);
         grid-column-gap: 0.2rem;
     }
-    
+
     @media screen and (max-width: 753px) {
         .nav-link {
             font-size: 0.2rem;
             display: inline-block;
         }
+
         .nav-link:hover {
             border-radius: 0.5rem;
         }
+
         .nav-list .nav-item:nth-child(3) {
             border-radius: 0.5rem;
             display: inline-block;
         }
     }
-    
+
     @media screen and (max-width: 690px) {
         .nav-toggle {
             display: block;
@@ -283,11 +287,13 @@
             cursor: pointer;
             /* 마우스 포인터: 손 => 토글에 가져 가면 마우스 커서 생성*/
         }
+
         .nav-logo {
             /*밥 아이콘을 중앙 정렬 시켜서 아래에 있는 메뉴토글 버튼 보이게*/
             margin: 0 auto;
             /*가운데 정렬*/
         }
+
         /* nav의 글자 햄버거 메뉴 안으로 수직으로 flex 방향 바꾸기 */
         .nav-list {
             flex-direction: column;
@@ -309,9 +315,11 @@
             overflow: hidden;
             transition: 0.3s;
         }
+
         .nav-link {
             color: #333333;
         }
+
         .nav-item {
             /* nav 메뉴 글자 사이의 위아래 여백 주기*/
             padding: 0.5rem 0;
@@ -319,47 +327,59 @@
             text-align: center;
             /* 글자 가운데 정렬 */
         }
+
         .show-menu {
             height: 203px;
             width: 100%;
         }
+
         td>a {
             font-size: 0.85rem;
         }
+
         td {
             padding: 18px;
         }
+
         input {
             font-size: 0.5rem;
         }
+
         #search {
             font-size: 0.2rem;
         }
+
         .btn,
         .btn-dark {
             font-size: 0.2rem;
         }
+
         .search-wrap {
             display: flex;
         }
+
         .nav-item:nth-child(5) {
             background-color: #fff;
         }
+
         .nav-item:hover {
             background-color: #fff;
         }
     }
-    
+
     @media screen and (max-width: 485px) {
         td>a {
             font-size: 0.85rem;
         }
+
         td {
             padding: 5px;
         }
+
         tr {
             height: 2rem;
         }
+
         table {
             width: 100%;
         }

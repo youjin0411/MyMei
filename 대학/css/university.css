@@ -206,12 +206,13 @@ i {
 }
 
 .footer {
+    text-align: center;
     margin-top: 5rem;
-    padding: 30px;
-    background: #fff;
+    padding: 30px 0;
     color: #606060;
     font-size: 0.1rem;
     display: flex;
+    background: #fff;
     background-color: #99B8D7;
 }
 

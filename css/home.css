@@ -155,9 +155,6 @@ a.link2 {
     border-left-width: 1px;
 }
 
-
-/* 이렇게 하면 완벽합니다. */
-
 .part-52 .head2>ul>li.active2::before {
     content: "";
     position: absolute;
@@ -203,19 +200,12 @@ a.link2 {
 }
 
 .footer {
+    text-align: center;
     margin-top: 5rem;
     padding: 30px 0;
-    background: #fff;
     color: #A6A6A6;
     font-size: 0.1rem;
     display: flex;
-}
-
-.grid-container-footer {
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(2, 30%);
-    /* grid-column-gap: 0.2rem; */
 }
 
 .margin {
