@@ -168,10 +168,26 @@
                     
                     button {
                         border: none;
-                        background-color: transparent;
-                        font-size: 1rem;
-                        font-weight: bolder;
-                        color: #595959;
+                        background-color: #FFE39A;
+                        padding-left: 80px;
+                        padding-right: 80px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        border-radius: 50px;
+                        border: solid 1px #FFCA41;
+                        font-size: 1.5rem;
+                        margin-left: 30px;
+                    }
+
+                    .radiobutton {
+                        width: 16px;
+                        height: 16px;
+                        vertical-align: middle;
+                    }
+
+                    .radiobutton  + label {
+                        font-size: 18px;
+                        vertical-align: middle;
                     }
                     
                     a {
