@@ -14,7 +14,7 @@ ul {
 .main-img {
     height: 30vw;
     width: 100%;
-    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../마이스터고/이미지/mainpage.png");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 85%, rgba(255, 255, 255, 1) 100%), url("../마이스터고/이미지/mainpage.png");
     background-size: cover;
     margin-bottom: 1.5rem;
 }
@@ -50,6 +50,19 @@ ul {
     margin-right: 20px;
     list-style: none;
     user-select: none;
+}
+
+.item1 {
+    margin-left: 35%;
+}
+
+.item2 {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.item3 {
+    margin-right: 35%;
 }
 
 li.item {
@@ -110,6 +123,7 @@ a.link2 {
 }
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 .part-52 {
     flex: 1 1 auto;
 }
@@ -182,6 +196,10 @@ a.link2 {
     background-color: #b11864de;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
+}
+
+.youtube {
+    align-items: center;
 }
 
 .footer {
