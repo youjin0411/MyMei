@@ -39,30 +39,33 @@ ul {
     transform: translate(0, 0);
 }
 
-.list2 {
-    place-content: center;
-    padding: 1rem 0;
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-}
-
 .item {
-    margin-right: 20px;
+    padding: 30px 0 0 30px;
     list-style: none;
     user-select: none;
 }
 
+.list2 {
+    place-content: center;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+}
+
 .item1 {
     margin-left: 35%;
+    width: 380px;
+    height: 500px;
 }
 
 .item2 {
     margin-left: 85px;
     margin-right: 85px;
+    width: 380px;
 }
 
 .item3 {
-    margin-right: 35%;
+    width: 380px;
 }
 
 li.item {
@@ -188,8 +191,8 @@ a.link2 {
 .linesec2 {
     margin: 0 auto;
     margin-top: 0.11rem;
-    width: 12.925em;
-    height: 0.55em;
+    width: 15em;
+    height: 0.35em;
     background-color: #b11864de;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
