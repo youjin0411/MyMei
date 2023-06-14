@@ -53,7 +53,7 @@
 <div class="board_top">
     <form method="post" action="">
         <div class="board_search">
-            <input type = "text" placeholder="Search" name="search">
+            <input type = "text"  name="search" value="<?=$_POST['search']?>">
             <button type="submit" class="btn_search" name="btn_search" onclick="location.href='../학생후기/search.php'">
             <i class="fa-solid fa-magnifying-glass"></i>
             </button>
