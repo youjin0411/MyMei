@@ -44,13 +44,40 @@ function calculateScore() {
 
     var result = "당신의 점수는 " + score + "점입니다.";
 
-    if (score === 100) {
-        alert("마이스터고를 잘 아시는군요!!");
-    } else if (score >= 50) {
-        alert("마이스터고를 어느 정도는 알고 있군요!");
+    if (score == 100) {
+        alert("100점");
+        alert("축하합니다!");
+    } else if (score == 90) {
+        alert("90점");
+    } else if (score == 80) {
+        alert("80점");
+        alert("다시 도전해 보세요");
+    } else if (score == 70) {
+        alert("70점");
+        alert("다시 도전해 보세요");
+    } else if (score == 60) {
+        alert("60점");
+        alert("다시 도전해 보세요");
+    } else if (score == 50) {
+        alert("50점");
+        alert("다시 도전해 보세요");
+    } else if (score == 40) {
+        alert("40점");
+        alert("다시 도전해 보세요");
+    } else if (score == 30) {
+        alert("30점");
+        alert("다시 도전해 보세요");
+    } else if (score == 20) {
+        alert("20점");
+        alert("다시 도전해 보세요");
+    } else if (score == 10) {
+        alert("10점");
+        alert("다시 도전해 보세요");
     } else {
-        alert("마이스터고에 대해 조금 더 공부하세요");
+        alert("0점");
+        alert("다시 도전해 보세요");
     }
+
     reset();
 }
 
