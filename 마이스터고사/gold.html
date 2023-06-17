@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이스터고사</title>
+    <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <script src="test.js"></script>
+    <style>
+    #result-container{
+    margin-bottom : 30px;
+    font-size : 60px;
+    font-weight: border;
+    color:#FFC700;
+    }
+
+    h2{
+    font-size : 30px;
+    width: 350px;
+    height : 70px;
+    margin-left : 675px;
+    background-color: #FFC700;
+    color :#FFF7DB;
+    border-radius: 50px;
+    margin-top : 25px;
+    padding-top : 12px;
+    }
+    .text{
+    font-size: 50px;
+    font-weight: 1000px;
+    color : #3D3D3D;
+    padding-top : 20px;
+    }
+
+    </style>
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container" id="nav-toggle">
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-item" onClick="location.href='../index.html'">
+                        <a href="../index.html" class="nav-link">&ensp; HOME &ensp;</a>
+                    </li>
+                    <li class="nav-item" onClick="location.href='../마이스터고/areaMeister.html'">
+                        <a href="../마이스터고/areaMeister.html" class="nav-link">&ensp; 마이스터고 &ensp;</a>
+                    </li>
+                    <li class="nav-item" onClick="location.href='../대학/university.html'">
+                        <a href="../대학/university.html" class="nav-link">&ensp; 대학 &ensp;</a>
+                    </li>
+                    <li class="nav-item" onClick="location.href='../학생후기/student.php'">
+                        <a href="../학생후기/student.php" class="nav-link">&ensp; 학생후기 &ensp;</a>
+                    </li>
+                    <li class="nav-item" onClick="location.href='./test.html'">
+                        <a href="./test.html" class="nav-link">&ensp; 마이스터고사 &ensp;</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="head_text">
+        <div class="text"> <h1>당신의 점수는 &nbsp; <h1></div> 
+        <h1><div id="result-container"></div>    </h1>
+    </div>
+
+
+    <script>
+        // 결과 값 가져오기
+        var queryString = window.location.search;
+        var urlParams = new URLSearchParams(queryString);
+        var result = urlParams.get('result');
+        // 결과 출력
+        var resultContainer = document.getElementById("result-container");
+        resultContainer.innerText =  result+"점";
+
+    </script>
+        <img src = "../img/gold.png">
+
+
+   <h3>마이스터고에 대해 모르는게 없는 </h3>
+   <h2>금메달리스트!</h2>
+
+   <div class ="link_text">
+    <a href="test.html" class="icon"><img src='../img/again.png'>다시하기</a>
+    <a href="#" class="icon"><img src='../img/home.png'>메인으로</a>
+
+   </div>
+</body>
+
+</html>

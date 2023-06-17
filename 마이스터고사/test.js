@@ -42,48 +42,19 @@ function calculateScore() {
         score += 10;
     }
 
-    var result = "당신의 점수는 " + score + "점입니다.";
+    var result =  score ;
+ 
 
-    if (score == 100) {
-        alert("100점");
-        alert("축하합니다!");
-    } else if (score == 90) {
-        alert("90점");
-    } else if (score == 80) {
-        alert("80점");
-        alert("다시 도전해 보세요");
-    } else if (score == 70) {
-        alert("70점");
-        alert("다시 도전해 보세요");
-    } else if (score == 60) {
-        alert("60점");
-        alert("다시 도전해 보세요");
-    } else if (score == 50) {
-        alert("50점");
-        alert("다시 도전해 보세요");
-    } else if (score == 40) {
-        alert("40점");
-        alert("다시 도전해 보세요");
-    } else if (score == 30) {
-        alert("30점");
-        alert("다시 도전해 보세요");
-    } else if (score == 20) {
-        alert("20점");
-        alert("다시 도전해 보세요");
-    } else if (score == 10) {
-        alert("10점");
-        alert("다시 도전해 보세요");
-    } else {
-        alert("0점");
-        alert("다시 도전해 보세요");
-    }
 
-    reset();
+    if (score === 100 || score===90) {
+        window.location.href = 'gold.html?result=' + result; // result 값을 gold.html로 전달
+
+
+    } else if (score === 80 || score===70 || score===60 || score===50) {
+        window.location.href = 'silver.html?result=' + result; // result 값을 gold.html로 전달
+    } 
+    else {
+        window.location.href = 'copper.html?result=' + result; // result 값을 gold.html로 전달
+    } 
+
 }
-
-function reset() {
-    var radioButtons = document.querySelectorAll('input[type="radio"]');
-    for (var i = 0; i < radioButtons.length; i++) {
-      radioButtons[i].checked = false;  
-    }
-  }

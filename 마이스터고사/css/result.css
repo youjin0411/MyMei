@@ -1,0 +1,42 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+img{
+    width : 300px;
+    height : 300px;
+    margin-top : 20px;
+}
+
+h3{
+    margin-top : 41px;
+    font-size : 23px;
+    font-weight: 500;
+    color : #2d2d2d;
+}
+
+
+.head_text{
+    display: flex;
+    text-align: bottom;
+    margin-top : 110px;
+    margin-left : 39%;
+}
+
+
+
+.link_text{
+    display: flex;
+    margin-left : 707px;
+}
+.icon{
+    color: #606060;
+    margin-bottom : 10px;
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+.icon > img{
+    width: 18px;
+    height: 28px;
+    padding-top : 10px;
+    margin-right : 12px;
+}
