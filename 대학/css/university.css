@@ -42,9 +42,6 @@ b {
     margin-left: 150px;
 }
 
-
-/* nav */
-
 .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -54,6 +51,7 @@ header {
     background-color: #173473;
 }
 
+/* nav */
 nav {
     height: 44px;
     /* nav글자 높이 */
