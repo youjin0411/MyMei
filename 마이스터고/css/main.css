@@ -158,30 +158,39 @@
                     }
 
                     .board_search{
-                        height: 60px;
-                        width:700px;
-                        border: 1px solid #173473;
+                        height: 55px;
+                        width: 750px;
+                        border: 1px solid #131313;
                         margin-top: 0px;
                         margin : 0px auto;
                         text-align: center;
+                        /* box-shadow: 2px 2px 5px 0px rgb(193, 193, 193) inset ; */
+
                     }
 
                     .board_search > #btn_search {
                         width: 60px;
                         height: 60px;
                         border:0px;
-                        background: #173473;
+                        /* background: #173473; */
                         outline: none;
                         float:right;
                         overflow: hidden;
-                        color:#ffffff;
                         cursor: pointer;
+
                     }
+                    input::placeholder {
+                        font-size: 0.5em;
+                      }
+      
+                    /* .board_search > #btn_search > .fa-solid{
+                        color : red;
+                    } */
 
                     #word{
-                        height : 55px;
-                        width: 637px;
-                        padding-left: 10px;
+                        height : 52px;
+                        width: 690px;
+                        padding-left: 8px;
                         float: left;
                         border: none;
                         outline: none;
