@@ -47,17 +47,18 @@ color : #33549b;
 }
 .school-explainP1{
   margin-top : 35px;
-  border-radius: 50px;
+  border-radius: 20px;
   padding-left:30px;
   padding-top : 40px;
   padding-bottom : 40px;
+  padding-right : 30px;
   border : 2px solid #092258;
 }
 
 .school-class{
     width: 65%;
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
   /* 드롭다운 */
