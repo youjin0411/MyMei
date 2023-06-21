@@ -156,6 +156,34 @@
                         background-size: cover;
                         margin-bottom: 1.5rem;
                     }
+
+                    .board_search{
+                        height: 60px;
+                        width:500px;
+                        border: 1px solid #173473;
+                        margin-top: 0px;
+                        margin : 0px auto;
+                        text-align: center;
+                    }
+
+                    .board_search > #btn_search {
+                        width: 60px;
+                        height: 60px;
+                        border:0px;
+                        background: #173473;
+                        outline: none;
+                        float:right;
+                        color:#ffffff;
+                        cursor: pointer;
+                    }
+
+                    #word{
+                        height : 55px;
+                        width: 437px;
+                        float: left;
+                        border: none;
+                        outline: none;
+                    }
                     
                     .selctext {
                         width: 100%;
@@ -291,10 +319,7 @@
                         font-weight: bold;
                         font-size: 1.2rem;
                     }
-                    
-                    #word{
-                        height : 60px;
-                    }
+
                     #word::placeholder {
                         font-size: 20px; /* 원하는 폰트 크기로 설정 */
                         padding-left : 20px;
