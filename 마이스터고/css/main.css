@@ -349,12 +349,12 @@
                     }
                     
                     .intor-school {
-                        width: 100%;
-                        margin: 0 auto;
+                        width : 80%;
+                        margin : 0 auto;
                         place-items: center;
                         display: grid;
                         grid-template-columns: repeat(4, 25%);
-                        grid-row-gap: 3vw;
+                        grid-row-gap: 5vw;
                     }
                     
                     .intro2 {
