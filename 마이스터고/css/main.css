@@ -159,7 +159,7 @@
 
                     .board_search{
                         height: 60px;
-                        width:500px;
+                        width:600px;
                         border: 1px solid #173473;
                         margin-top: 0px;
                         margin : 0px auto;
@@ -173,13 +173,15 @@
                         background: #173473;
                         outline: none;
                         float:right;
+                        overflow: hidden;
                         color:#ffffff;
                         cursor: pointer;
                     }
 
                     #word{
                         height : 55px;
-                        width: 437px;
+                        width: 537px;
+                        padding-left: 10px;
                         float: left;
                         border: none;
                         outline: none;
@@ -323,7 +325,7 @@
                     #word::placeholder {
                         font-size: 20px; /* 원하는 폰트 크기로 설정 */
                         padding-left : 20px;
-                      }
+                    }
                     .linesec2 {
                         margin: 0 auto;
                         margin-top: 0.001rem;
