@@ -80,8 +80,9 @@
                 //     return true;
                 // }
                 if (once) {
+                    saveBtn.style.display = 'none';
                     once = false; // 1회 들어오고 그 다음은 막는다.
-                    saveBtn.disabled = false;
+                    alert("잠시만 기다려주세요.");
                     return true; // 최초 1회 return 은 true
                 }
             }
