@@ -293,7 +293,7 @@
                     }
                     
                     #word{
-                        height : 50px;
+                        height : 60px;
                     }
                     #word::placeholder {
                         font-size: 20px; /* 원하는 폰트 크기로 설정 */
