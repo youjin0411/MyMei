@@ -67,8 +67,26 @@
                         id="ucontent" style="resize: none" name="ucontent"></textarea>
                 </div>
             </div>
-            <button class="save" id="saveBtn" type="submit" value="등록" style='cursor:pointer'>등록</button>
+            <button class="save" id="saveBtn" onclick="OnlyOneClick()" type="submit" value="등록" style='cursor:pointer'>등록</button>
         </div>
+        <script>
+            var once = true; // 최초 1회
+            var cnt = 1;
+            const saveBtn = document.getElementById('saveBtn');
+            function OnlyOneClick() {
+                // if(cnt === 1) {
+                //     alert("지금 등록하면 다시 고치지 못합니다. 확인해주세요.");
+
+                //     return true;
+                // }
+                if (once) {
+                    saveBtn.style.display = 'none';
+                    once = false; // 1회 들어오고 그 다음은 막는다.
+                    alert("잠시만 기다려주세요.");
+                    return true; // 최초 1회 return 은 true
+                }
+            }
+        </script>
     </form>
     <footer class="footer">
         <div class="grid-container-footer">
