@@ -10,7 +10,7 @@ if(!$conn){  //연결하지 못하였을때 에러메세지 띠우기, mysqli_co
 } 
 else{
   echo '<script>alert("등록되었습니다"); 
-  location.href="../학생후기/index.php";</script>';
+  location.href="../학생후기/student.php";</script>';
 }
 
 $_title=$_POST['title'];

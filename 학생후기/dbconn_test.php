@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $id="root";
-$password="990327";
-$db="itshow";
-$conn=mysqli_connect('localhost', 'root', '990327', 'itshow');
+$password="1111";
+$db="itshowdb";
+$conn=mysqli_connect('localhost', 'root', '1111', 'itshowdb', '3301');
 ?>

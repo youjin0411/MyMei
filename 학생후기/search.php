@@ -80,7 +80,7 @@
             // 검색어가 입력되지 않은 경우에 대한 예외 처리
             if (empty($searchQuery)) {
                 echo '<script>alert("검색어를 입력해주세요.");
-                location.href="../학생후기/index.php";</script>';
+                location.href="../학생후기/student.php";</script>';
                 exit;
             }
 
@@ -91,7 +91,7 @@
             // 검색 결과가 없는 경우에 대한 예외 처리
             if (mysqli_num_rows($result) == 0) {
                 echo '<script>alert("검색결과가 없습니다. 첫 페이지로 돌아갑니다.");
-                location.href="../학생후기/index.php";</script>';
+                location.href="../학생후기/student.php";</script>';
                 exit;
             }
 
@@ -99,7 +99,7 @@
             while ($arr = mysqli_fetch_assoc($result)) {
         ?>
              <tr>
-        <td><a href='read.php?a=<?php echo $arr["num"]; ?>&column=num'><?php echo $arr["num"]; ?></a>&nbsp;</td>
+        <td><a href='read.php?a=<?php echo $arr["no"]; ?>&column=no'><?php echo $arr["no"]; ?></a>&nbsp;</td>
             <td><a href='read.php?a=<?php echo $arr["title"]; ?>&column=title'><?php echo $arr["title"]; ?></a>&nbsp;</td>
             <td><a href='read.php?a=<?php echo $arr["name"]; ?>&column=name'><?php echo $arr["name"]; ?></a>&nbsp;</td>
             <td><a href='read.php?a=<?php echo $arr["school"]; ?>&column=school'><?php echo $arr["school"]; ?></a>&nbsp;</td>

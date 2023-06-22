@@ -76,7 +76,7 @@ color : #33549b;
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #e1eaff;
+    background-color: #7086b9;
     
   }
   .dropdown:hover .dropdown-content {
@@ -94,12 +94,13 @@ color : #33549b;
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #cac7c7;
     min-width: 550px;
     padding: 15px;
     overflow: auto;
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 10px;
   }
   .school-expalin-school{
     font-size: 19px;
@@ -109,11 +110,12 @@ color : #33549b;
 
 /* 드롭다운 호버 */
   .hoverdropbtn {
-    background-color: #ffffff;
+    background-color: #cac7c7;
     color: black;
     margin-top: 40px;
     font-size: 16px;
     border: none;
+    border-radius: 5px;
   }
   
   .hoverdropdown {
@@ -124,10 +126,11 @@ color : #33549b;
   .hoverdropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #cac7c7;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 5px;
   }  
   .hoverdropdown:hover .dropdown-content {display: block;}
   

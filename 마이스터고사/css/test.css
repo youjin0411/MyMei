@@ -176,20 +176,21 @@
                         color: rgba(0, 0, 0, 0.65);
                         margin-bottom: 50px;
                     }
-                    
+
                     button {
                         border: none;
-                        background-color: #FFE39A;
+                        background-color: #e2c880;
                         padding-left: 80px;
                         padding-right: 80px;
                         padding-top: 10px;
                         padding-bottom: 10px;
                         border-radius: 50px;
-                        border: solid 1px #FFCA41;
                         font-size: 1.5rem;
                         margin-left: 30px;
                     }
-                    
+                    button:hover{
+                        cursor: pointer;
+                    }
 
                     .radiobutton {
                         width: 16px;

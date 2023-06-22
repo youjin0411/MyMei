@@ -262,7 +262,7 @@
                     }
                     
                     li>a:hover {
-                        color: #20819F;
+                        color: #c12e77de;
                     }
                     
                     .div2:hover {
@@ -302,7 +302,7 @@
                         font-weight: 500;
                         /* text-align: center;
                         justify-content: center; */
-                        background-color: #D8EEFE;
+                        background-color: #96c1e0;
                         border-radius: 1rem;
                         width: 10em;
                         height: 2.55em;
@@ -347,7 +347,7 @@
                     .area {
                         font-weight: bold;
                         font-size: 1.4rem;
-                        color: #4AA4CA;
+                        color: #1a84cf;
                     }
                     
                     .context {
@@ -384,13 +384,14 @@
                         display: block;
                     }
                     
-                    .intor-school {
+                    .intor-school:hover {
                         width : 80%;
                         margin : 0 auto;
                         place-items: center;
                         display: grid;
                         grid-template-columns: repeat(4, 25%);
                         grid-row-gap: 5vw;
+                        cursor: pointer;
                     }
                     
                     .intro2 {

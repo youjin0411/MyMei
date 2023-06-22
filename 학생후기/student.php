@@ -116,13 +116,13 @@
         }
 
         $start = ($page - 1) * $list_num; //2페이지 인경우, 2-1*5 = 5
-        $sql = "SELECT * FROM board ORDER BY num DESC LIMIT $start, $list_num"; //5부터 5까지 
+        $sql = "SELECT * FROM board ORDER BY no DESC LIMIT $start, $list_num"; //5부터 5까지 
         $result = mysqli_query($conn, $sql);
         $cnt = $start + 1;
         while($array = mysqli_fetch_array($result)){
         ?>
         <tr>
-        <td><a href='read.php?a=<?php echo $array["num"]; ?>&column=num'><?php echo $array["num"]; ?></a>&nbsp;</td>
+        <td><a href='read.php?a=<?php echo $array["no"]; ?>&column=no'><?php echo $array["no"]; ?></a>&nbsp;</td>
             <td><a href='read.php?a=<?php echo $array["title"]; ?>&column=title'><?php echo $array["title"]; ?></a>&nbsp;</td>
             <td><a href='read.php?a=<?php echo $array["name"]; ?>&column=name'><?php echo $array["name"]; ?></a>&nbsp;</td>
             <td><a href='read.php?a=<?php echo $array["school"]; ?>&column=school'><?php echo $array["school"]; ?></a>&nbsp;</td>
