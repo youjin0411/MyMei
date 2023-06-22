@@ -53,6 +53,18 @@
                         margin-right : 680px;
                         padding-top: 10px;
                     }
+
+                    .answer:hover{
+                        cursor: pointer;
+                    }
+
+                    .answer > input {
+                        cursor: pointer;
+                    }
+
+                    .answer > label {
+                        cursor: pointer;
+                    }
                       #square {
                         margin-left: 80px;
                         width : 200px;
